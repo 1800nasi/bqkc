@@ -18,7 +18,7 @@ source-code: https://github.com/CollectionBuilder/collectionbuilder-csv
 # SITE SETTINGS
 #
 # title of site appears in banner
-title: B/qKC
+title: "{B/qKC}"
 # tagline, a short phrase that will appear throughout the site in the top banner
 tagline: an archive of Black queer Kansas City history
 # description appears in meta tags and other locations
@@ -50,8 +50,8 @@ metadata: bqkc-repository
 #
 # Enter name and link for your organization (replacing the name and links below)
 # These values will be used in attribution and data 
-organization-name: "Center for Digital Inquiry and Learning (CDIL)"
-organization-link: https://cdil.lib.uidaho.edu/
+organization-name: "{B/qKC}: a Black queer archive"
+organization-link: https://1800nasi.net/bqkc/
 # Add logo image links if you would like them to appear in banner and footer. Delete or leave blank to remove logos.
 organization-logo-banner: https://www.lib.uidaho.edu/collectionbuilder/cdil-black.png
 organization-logo-nav: https://www.lib.uidaho.edu/collectionbuilder/cdil-white.png
