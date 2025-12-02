@@ -1,7 +1,11 @@
 display_name,stub,dropdown_parent
 Home,/,
 Browse,/browse.html,
+Collections,,
 Subjects,/subjects.html,
 Map,/map.html,
 Data,/data.html,
 About,/about.html,
+gary_carrington,/browse.html#collection:gary_carrington_collection,Collections
+starla_carr,/browse.html#collection:starla_carr_collection,Collections
+tisha_taylor,/browse.html#collection:tisha_taylor_collection,Collections
