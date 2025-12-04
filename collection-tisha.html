@@ -7,7 +7,7 @@ description: "Tisha Taylor (she/her/hers) has made a huge impact on the local Bl
 
 "
 ---
-% assign featured = site.data.metadata | where: "objectid", "tishacoll018" | first %}
+{% assign featured = site.data.metadata | where: "objectid", "tishacoll018" | first %}
 
 <div class="container my-5">
   <img src="{{ featured.image_small }}" 
