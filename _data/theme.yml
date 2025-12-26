@@ -13,7 +13,7 @@ featured-image-alt-text: # add alt text if using url for featured-image (objecti
 # optional: add extra padding around collection title for a larger image feature. 
 home-title-y-padding: 10em # the margin from the top your title portion will appear.
 # optional: change position of background image, center, top, bottom
-home-banner-image-position: center # Default is top
+home-banner-image-position: # Default is top
 
 
 ##########
@@ -98,7 +98,7 @@ search-child-objects: true # true / false - if true, child objects will appear o
 navbar-color: navbar-dark
 # navbar background color
 # Choose from bg-primary, bg-secondary, bg-success, bg-danger, bg-warning, bg-info, bg-light, bg-dark, bg-white
-navbar-background: bg-dark
+navbar-background: bg-secondary
 
 # BOOTSWATCH THEMES [optional!]
 # You can replace the standard Bootstrap theme with a Bootswatch (https://github.com/thomaspark/bootswatch) option
@@ -107,8 +107,8 @@ bootswatch: # leave blank or comment out for plain bootstrap
 
 # THEME FONTS [optional!]
 base-font-size: 1.2em
-text-color: "#191919"
-link-color: "#0d6efd"
+text-color: "#eeeeee"
+link-color: "#4da3ff"
 base-font-family: "'Space Mono', monospace"
 font-cdn: <link rel="preconnect" href="https://fonts.bunny.net"><link href="https://fonts.bunny.net/css?family=space-mono:400" rel="stylesheet" />
 

@@ -2,3 +2,321 @@
     Put your custom SCSS here! 
     This allows you to override any CollectionBuilder or Bootstrap CSS without modifying the base theme files directly.
 */
+/* =========================
+   Base Color System
+   ========================= */
+
+:root {
+  --bg-black: #000000;
+  --bg-soft-black: #0e0e0e;
+  --text-white: #f5f5f5;
+  --text-muted: #bfbfbf;
+  --border-white: #ffffff;
+}
+/* =========================
+   Global Black Site
+   ========================= */
+
+body {
+  background-color: var(--bg-black);
+  color: var(--text-white);
+}
+input, textarea {
+  color: white;
+}
+::placeholder {
+  color: rgba(255,255,255,0.6);
+}
+/* === Site title / navbar title color === */
+
+.navbar-brand,
+.navbar-brand a,
+.navbar-dark .navbar-brand,
+.navbar-dark .navbar-brand:focus,
+.navbar-dark .navbar-brand:hover {
+  color: #ffffff !important;
+}
+/* === Make muted text readable on black === */
+
+.text-muted {
+  color: rgba(255, 255, 255, 0.65) !important;
+}
+/* === Force site title in navbar to white === */
+
+header .navbar-brand,
+header .navbar-brand *,
+#home-banner-logo {
+  color: #ffffff !important;
+}
+/* === Nuclear fix: make all header links white === */
+
+header a,
+header a * {
+  color: #ffffff !important;
+}
+#header a,
+#header a * {
+  color: #ffffff !important;
+}
+/* Only change the inner-page site title */
+#title a.text-dark,
+#title a.text-dark:hover,
+#title a.text-dark:focus {
+  color: #ffffff !important;
+}
+
+a:hover {
+  color: #bfbfbf;
+}
+/* =========================
+   Footer layout + logo
+   ========================= */
+
+/* top row: text/nav left, logo right (from footer.html .footer-top row) */
+.footer-top {
+  align-items: stretch;
+}
+
+/* footer logo wrapper */
+.footer-logo-spinner {
+  display: flex;
+  justify-content: flex-end;  /* align logo to the right on desktop */
+  padding: 0.5rem 0;
+}
+
+/* video sizing */
+.footer-logo-spinner video {
+  width: 300px;          /* tweak as needed */
+  max-width: 100%;       /* don’t overflow on small screens */
+  height: auto;
+}
+
+/* Respect accessibility: reduce extra visual processing for motion-sensitive users */
+/* Note: this does NOT actually stop the video, but avoids adding any extra CSS animation effects. */
+@media (prefers-reduced-motion: reduce) {
+  .footer-logo-spinner video {
+    animation: none !important;   /* in case we ever add keyframe animation later */
+    filter: grayscale(30%);       /* optional styling touch, keep or remove as you like */
+  }
+}
+
+/* bottom strip (built with CB + last updated) */
+#footer-credits {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+/* =================*
+
+
+/* Turn Bootstrap's bg-dark into pure black everywhere */
+.bg-dark,
+.navbar-dark.bg-dark,
+footer.bg-dark {
+  background-color: #000000 !important;
+}
+
+/* Make footer pure black + readable */
+footer,
+#footer,
+.site-footer,
+#collection-footer {
+  background-color: #000000 !important;
+  color: #ffffff;
+}
+
+/* ensure footer links stay readable too */
+footer a {
+  color: #ffffff;
+}
+footer a:hover {
+  color: #cccccc;
+}
+/* Remove white card background on single-item image */
+
+main[role="main"] .card.mb-4.text-center {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* Optional: give the image a soft outline so it still feels anchored */
+main[role="main"] .card.mb-4.text-center img {
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+/* Make "Click to view full screen" readable on dark background */
+main[role="main"] .text-center small {
+  color: rgba(255, 255, 255, 0.75) !important;
+}
+
+/* =========================
+   Links
+   ========================= */
+
+/* Underline all links by default */
+a {
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
+
+/* Do NOT underline nav, footer nav, buttons, or card titles */
+.navbar a,
+#footer-nav a,
+.btn,
+.btn a,
+.card-title a,
+.browse .card-title a {
+  text-decoration: none;
+}
+
+/* Keep hover feeling softer */
+a:hover {
+  color: #bfbfbf;
+}
+
+/* =========================
+   Buttons – global system
+   ========================= */
+
+/* Default button look: assume dark background
+   (navbar, browse controls, item page, etc.) */
+.btn,
+.btn-outline-secondary,
+.btn-outline-dark,
+.btn-outline-primary {
+  background-color: transparent !important;
+  color: #ffffff !important;
+  border: 1px solid #ffffff !important;
+  border-radius: 4px;
+}
+
+/* Hover: invert to white fill, black text */
+.btn:hover,
+.btn:focus,
+.btn-outline-secondary:hover,
+.btn-outline-secondary:focus,
+.btn-outline-dark:hover,
+.btn-outline-dark:focus,
+.btn-outline-primary:hover,
+.btn-outline-primary:focus {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  text-decoration: none;
+}
+
+
+/* =========================
+   Buttons on light / white cards
+   (home bubbles, browse cards, subjects page)
+   ========================= */
+
+.card .btn,
+.bg-white .btn,
+.bg-light .btn {
+  background-color: transparent !important;
+  color: #000000 !important;
+  border-color: #000000 !important;
+}
+
+/* Hover on white cards: black fill, white text */
+.card .btn:hover,
+.card .btn:focus,
+.bg-white .btn:hover,
+.bg-white .btn:focus,
+.bg-light .btn:hover,
+.bg-light .btn:focus {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+
+/* =========================
+   Browse page controls
+   ========================= */
+
+/* Search + Reset buttons attached to the browse search input */
+#browse .input-group .btn {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+  border: 1px solid #ffffff !important;
+  border-radius: 0 !important;  /* keeps the joined look with the input */
+}
+
+/* Hover for Search / Reset */
+#browse .input-group .btn:hover,
+#browse .input-group .btn:focus {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+
+/* "Advanced Search" and "Sort by…" – use the default white-outline style.
+   (No extra rules needed; they are .btn-outline-* so the global .btn rules above apply.) */
+
+/* =========================
+   Navbar search button
+   ========================= */
+
+/* Navbar search button: keep icon visible, no black box */
+.navbar .input-group .btn {
+  border-radius: 0 4px 4px 0;
+  background-color: transparent !important;
+  border: 1px solid #ffffff !important;
+  color: #ffffff !important;
+}
+
+/* make sure magnifying glass stays white */
+.navbar .btn .bi-search,
+.navbar .btn svg {
+  color: #ffffff !important;
+  fill: #ffffff !important;
+}
+
+
+.navbar .btn .bi-search {
+  color: #ffffff !important;
+}
+/* Item page: force "View on Map" / "Download" buttons to show on black */
+body.item-page main[role="main"] .text-center a.btn {
+  display: inline-block;
+  background-color: transparent !important;
+  color: #ffffff !important;
+  border: 1px solid #ffffff !important;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+body.item-page main[role="main"] .text-center a.btn:hover,
+body.item-page main[role="main"] .text-center a.btn:focus {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+/* Item page: "View on Map" / "Download JPG" buttons (btn-outline-primary) */
+
+body.item-page main[role="main"] .btn-group .btn-outline-primary {
+  background-color: transparent !important;
+  color: #ffffff !important;
+  border: 1px solid #ffffff !important;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+/* Hover: invert to white fill, black text */
+body.item-page main[role="main"] .btn-group .btn-outline-primary:hover,
+body.item-page main[role="main"] .btn-group .btn-outline-primary:focus {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+/* Item page: "View on Map" / "Download JPG" buttons under main image */
+main[role="main"] .card.mb-4.text-center .btn-group .btn-outline-primary {
+  background-color: transparent !important;
+  color: #ffffff !important;
+  border: 1px solid #ffffff !important;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+main[role="main"] .card.mb-4.text-center .btn-group .btn-outline-primary:hover,
+main[role="main"] .card.mb-4.text-center .btn-group .btn-outline-primary:focus {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}

@@ -1,0 +1,40 @@
+---
+layout: browse
+title: "Gary Carrington Collection"
+---
+
+{% assign featured = site.data[site.metadata] | where: "objectid", "garycoll018" | first %}
+
+<div class="row align-items-center mb-5">
+
+  <!-- TEXT -->
+  <div class="col-lg-7">
+    <h1 class="display-5 mb-3">gary_ carrington_ collection</h1>
+    <p class="lead">
+Gary Carrington (he/him/his) is referred to as a “pillar” in Kansas City’s queer pageant/event promotions scene. Specifically credited with founding a plethora of local pageant competitions, Gary has served several roles within KC’s Black queer community–including the management of Soakie’s: Kansas City’s former Black gay bar in Downtown Kansas City. The gary_carrington_collection, an inaugural collection donated to {B/qKC}, consists of various photos from Gary’s time at Soakie’s, as well as clippings from KC Exposures. 
+    </p>
+  </div>
+
+  <!-- IMAGE + CITATION -->
+  <div class="col-lg-5 text-lg-end">
+    <img
+      src="{{ featured.image_small | relative_url }}"
+      class="img-fluid rounded"
+      alt="{{ featured.title }}"
+    >
+
+    {% if featured.identifier %}
+      <div class="small text-muted mt-2">
+        Identifier #: {{ featured.identifier }}
+      </div>
+    {% endif %}
+  </div>
+
+</div>
+
+<script>
+  window.location.hash = "collection:gary_carrington";
+</script>
+
+</div>
+
