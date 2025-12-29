@@ -64,10 +64,6 @@ header a * {
 #title a.text-dark:focus {
   color: #ffffff !important;
 }
-
-a:hover {
-  color: #bfbfbf;
-}
 /* =========================
    Footer layout + logo
    ========================= */
@@ -106,17 +102,16 @@ a:hover {
   margin-top: 1rem;
 }
 
-/* =================*
+/* -------------------------
+   Dark theme & item cards
+   ------------------------- */
 
-
-/* Turn Bootstrap's bg-dark into pure black everywhere */
 .bg-dark,
 .navbar-dark.bg-dark,
 footer.bg-dark {
   background-color: #000000 !important;
 }
 
-/* Make footer pure black + readable */
 footer,
 #footer,
 .site-footer,
@@ -125,42 +120,39 @@ footer,
   color: #ffffff;
 }
 
-/* ensure footer links stay readable too */
 footer a {
   color: #ffffff;
 }
 footer a:hover {
   color: #cccccc;
 }
-/* Remove white card background on single-item image */
 
+/* Single-item image card */
 main[role="main"] .card.mb-4.text-center {
   background-color: transparent !important;
   border: none !important;
   box-shadow: none !important;
 }
 
-/* Optional: give the image a soft outline so it still feels anchored */
 main[role="main"] .card.mb-4.text-center img {
   border-radius: 6px;
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
-/* Make "Click to view full screen" readable on dark background */
+
+/* “Click to view full screen” text */
 main[role="main"] .text-center small {
   color: rgba(255, 255, 255, 0.75) !important;
 }
 
-/* =========================
+/* -------------------------
    Links
-   ========================= */
+   ------------------------- */
 
-/* Underline all links by default */
 a {
   text-decoration: underline;
   text-underline-offset: 0.18em;
 }
 
-/* Do NOT underline nav, footer nav, buttons, or card titles */
 .navbar a,
 #footer-nav a,
 .btn,
@@ -170,17 +162,14 @@ a {
   text-decoration: none;
 }
 
-/* Keep hover feeling softer */
 a:hover {
   color: #bfbfbf;
 }
 
-/* =========================
-   Buttons – global system
-   ========================= */
+/* -------------------------
+   Buttons – global
+   ------------------------- */
 
-/* Default button look: assume dark background
-   (navbar, browse controls, item page, etc.) */
 .btn,
 .btn-outline-secondary,
 .btn-outline-dark,
@@ -191,7 +180,6 @@ a:hover {
   border-radius: 4px;
 }
 
-/* Hover: invert to white fill, black text */
 .btn:hover,
 .btn:focus,
 .btn-outline-secondary:hover,
@@ -205,12 +193,7 @@ a:hover {
   text-decoration: none;
 }
 
-
-/* =========================
-   Buttons on light / white cards
-   (home bubbles, browse cards, subjects page)
-   ========================= */
-
+/* Buttons on white / light cards */
 .card .btn,
 .bg-white .btn,
 .bg-light .btn {
@@ -219,7 +202,6 @@ a:hover {
   border-color: #000000 !important;
 }
 
-/* Hover on white cards: black fill, white text */
 .card .btn:hover,
 .card .btn:focus,
 .bg-white .btn:hover,
@@ -230,33 +212,28 @@ a:hover {
   color: #ffffff !important;
 }
 
-/* =========================
+/* -------------------------
    Browse page controls
-   ========================= */
+   ------------------------- */
 
-/* Search + Reset buttons attached to the browse search input */
+/* Search + Reset attached to browse search field */
 #browse .input-group .btn {
   background-color: #000000 !important;
   color: #ffffff !important;
   border: 1px solid #ffffff !important;
-  border-radius: 0 !important;  /* keeps the joined look with the input */
+  border-radius: 0 !important;
 }
 
-/* Hover for Search / Reset */
 #browse .input-group .btn:hover,
 #browse .input-group .btn:focus {
   background-color: #ffffff !important;
   color: #000000 !important;
 }
 
-/* "Advanced Search" and "Sort by…" – use the default white-outline style.
-   (No extra rules needed; they are .btn-outline-* so the global .btn rules above apply.) */
-
-/* =========================
+/* -------------------------
    Navbar search button
-   ========================= */
+   ------------------------- */
 
-/* Navbar search button: keep icon visible, no black box */
 .navbar .input-group .btn {
   border-radius: 0 4px 4px 0;
   background-color: transparent !important;
@@ -264,18 +241,16 @@ a:hover {
   color: #ffffff !important;
 }
 
-/* make sure magnifying glass stays white */
 .navbar .btn .bi-search,
 .navbar .btn svg {
   color: #ffffff !important;
   fill: #ffffff !important;
 }
 
+/* -------------------------
+   Item-page buttons
+   ------------------------- */
 
-.navbar .btn .bi-search {
-  color: #ffffff !important;
-}
-/* Item page: force "View on Map" / "Download" buttons to show on black */
 body.item-page main[role="main"] .text-center a.btn {
   display: inline-block;
   background-color: transparent !important;
@@ -290,23 +265,8 @@ body.item-page main[role="main"] .text-center a.btn:focus {
   background-color: #ffffff !important;
   color: #000000 !important;
 }
-/* Item page: "View on Map" / "Download JPG" buttons (btn-outline-primary) */
 
-body.item-page main[role="main"] .btn-group .btn-outline-primary {
-  background-color: transparent !important;
-  color: #ffffff !important;
-  border: 1px solid #ffffff !important;
-  border-radius: 4px;
-  text-decoration: none;
-}
-
-/* Hover: invert to white fill, black text */
-body.item-page main[role="main"] .btn-group .btn-outline-primary:hover,
-body.item-page main[role="main"] .btn-group .btn-outline-primary:focus {
-  background-color: #ffffff !important;
-  color: #000000 !important;
-}
-/* Item page: "View on Map" / "Download JPG" buttons under main image */
+/* “View on Map” / “Download JPG” buttons under main image */
 main[role="main"] .card.mb-4.text-center .btn-group .btn-outline-primary {
   background-color: transparent !important;
   color: #ffffff !important;
@@ -320,3 +280,244 @@ main[role="main"] .card.mb-4.text-center .btn-group .btn-outline-primary:focus {
   background-color: #ffffff !important;
   color: #000000 !important;
 }
+
+/* -------------------------
+   Map page – FuseSearch
+   ------------------------- */
+
+.leaflet-fusesearch-panel .search-input {
+  color: #000000 !important;
+  background-color: #ffffff !important;
+  border: 1px solid #00000033;
+}
+
+.leaflet-fusesearch-panel .search-input::placeholder {
+  color: #555555 !important;
+}
+
+/* -------------------------
+   Homepage carousel button
+   ------------------------- */
+
+.carousel .btn,
+.carousel .btn-outline-primary {
+  color: #ffffff !important;
+  border: 1px solid #ffffff !important;
+  background: rgba(0, 0, 0, 0.55) !important;
+  backdrop-filter: blur(2px);
+}
+
+.carousel .btn:hover,
+.carousel .btn-outline-primary:hover {
+  background: #ffffff !important;
+  color: #000000 !important;
+}
+
+/* -------------------------
+   Typography
+   ------------------------- */
+
+main h1,
+main h2,
+main h3 {
+  letter-spacing: 0.04em;
+}
+
+.section-label {
+  font-size: 0.8rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+main p {
+  font-size: 0.98rem;
+  line-height: 1.6;
+}
+
+#metadata p,
+#metadata li {
+  line-height: 1.5;
+}
+
+#metadata strong {
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+/* =========================
+   Home Banner styling
+   ========================= */
+
+#home-banner {
+  position: relative;
+  min-height: 380px;
+  max-height: 580px;
+  padding: 3.5rem 0 2.5rem;
+  background-color: #000; /* safety if image fails */
+}
+
+/* container that holds the title box + Featured Image pill */
+#home-title-box {
+  position: relative;
+}
+
+/* inner dark rectangle with title + tagline */
+#home-title-box > .p-2 {
+  /* turn the centered strip into a badge */
+  display: inline-block;
+  text-align: left;
+  padding: 1.25rem 1.6rem !important;
+  margin-left: 1.5rem;
+  background: rgba(0, 0, 0, 0.88) !important;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+/* title inside the banner */
+#home-title-box h1 {
+  margin: 0;
+  font-size: clamp(2rem, 3.4vw, 3rem);
+  text-align: left;
+  letter-spacing: 0.04em;
+  font-weight: 700;
+}
+
+#home-title-box h1 a {
+  color: #ffffff !important;
+  text-decoration: none;
+}
+
+/* tagline inside banner */
+#home-title-box p {
+  margin: 0.35rem 0 0;
+  font-size: 0.95rem;
+  opacity: 0.85;
+}
+/* mobile: center the badge instead of left-aligning it */
+@media (max-width: 767px) {
+  #home-title-box {
+    text-align: center;
+  }
+  #home-title-box > .p-2 {
+    margin-left: 0;
+  }
+}
+/* === Featured Image label on home hero === */
+
+#home-banner {
+  position: relative; /* anchor for absolutely positioned label */
+}
+
+#home-banner .featured-image-label {
+  position: absolute;
+  bottom: 0.75rem;
+  right: 1rem;
+  padding: 0.15rem 0.6rem;
+  background: rgba(0, 0, 0, 0.75);  /* like the old design, but subtle */
+}
+
+#home-banner .featured-image-label a {
+  font-size: 0.7rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #ffffff !important;
+  text-decoration: none;
+}
+
+#home-banner .featured-image-label a:hover,
+#home-banner .featured-image-label a:focus {
+  text-decoration: underline;
+}
+
+
+/* =========================
+   Subpage header (under nav)
+   ========================= */
+
+main #title h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  letter-spacing: 0.04em;
+  font-weight: 700;
+  text-transform: none; /* don't force all caps */
+}
+
+main #title h1 a {
+  color: #ffffff !important;
+  text-decoration: none;
+}
+
+main #title p {
+  margin: 0.35rem 0 0;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+@media (max-width: 575px) {
+  main #title {
+    padding: 1.1rem 0 0.8rem;
+    margin-bottom: 1rem;
+  }
+  main #title h1 {
+    font-size: 1.25rem;
+  }
+}
+/* =========================
+   Subpage header (below nav)
+   ========================= */
+
+#title {
+  padding: 1.5rem 0 1.1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+  margin-bottom: 1.5rem;
+}
+
+#title h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  letter-spacing: 0.04em;
+  font-weight: 700;
+  text-transform: none; /* keep {B/qKC} style */
+}
+
+/* keep links looking like the site title, not underlined */
+#title h1 a {
+  color: #ffffff !important;
+  text-decoration: none;
+}
+
+#title p {
+  margin: 0.35rem 0 0;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+@media (max-width: 575px) {
+  #title {
+    padding: 1.1rem 0 0.8rem;
+    margin-bottom: 1rem;
+  }
+  #title h1 {
+    font-size: 1.25rem;
+  }
+}
+/* ---------------------------------
+   Card hover lift (non-modal only)
+   --------------------------------- */
+
+/* Only apply when no Bootstrap modal is open.
+   When a modal is open, body gets .modal-open, so this shuts off. */
+body:not(.modal-open) .card {
+  transition: transform 0.2s ease-out, box-shadow 0.2s ease-out;
+}
+
+body:not(.modal-open) .card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.45);
+}
+
+
+
+
+

@@ -1,6 +1,6 @@
 display_name,stub,dropdown_parent
 HOME,/,
-ARCHIVE,/browse.html,
+the_ARCHIVE,/browse.html,
 COLLECTIONS,,
 EXPLORE,,
 READ,,
@@ -8,8 +8,8 @@ SUBJECTS,/subjects.html,EXPLORE
 MAP,/map.html,EXPLORE
 METADATA,/data.html,EXPLORE
 ABOUT,/about.html,
-gary_carrington,/collection-gary.html,COLLECTIONS
-starla_carr,/collection-starla.html,COLLECTIONS
-tisha_taylor,/collection-tisha.html,COLLECTIONS
+gary_carrington,/collections/gary-carrington/,COLLECTIONS
+starla_carr,/collections/starla-carr/,COLLECTIONS
+tisha_taylor,/collections/tisha-taylor/,COLLECTIONS
 Remembering Soakie's,/soakies.html,READ
 DONATE,/donate.html,

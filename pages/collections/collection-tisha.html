@@ -1,0 +1,50 @@
+---
+layout: browse
+title: "Tisha Taylor Collection"
+permalink: /collections/tisha-taylor/
+---
+
+{% assign featured = site.data[site.metadata] | where: "objectid", "tishacoll010" | first %}
+
+<div class="row align-items-center mb-5">
+
+  <!-- TEXT -->
+  <div class="col-lg-7">
+    <h1 class="display-5 mb-3">tisha_ taylor_ collection</h1>
+    <p class="lead">
+      Craig Lovingood, more widely known by their drag persona Tisha Taylor (she/her/hers) has made significant impacts on the local Black LGBTQ+ scene. Tisha particularly founded Kansas City’s annual Black Pride in 1999 and won Miss Gay Kansas City America in 1996. She was also instrumental in managing Soakie’s: Kansas City’s former Black gay bar in Downtown Kansas City. The tisha_taylor_collection, an inaugural collection donated to {B/qKC}, consists of various photos from Tisha’s time at Soakie’s and Kansas City’s Black Pride in 1999.
+
+    </p>
+  </div>
+
+  <!-- IMAGE + CITATION -->
+  <div class="col-lg-5 text-lg-end">
+    <img
+      src="{{ featured.image_small | relative_url }}"
+      class="img-fluid rounded"
+      alt="{{ featured.title }}"
+    >
+
+   {% if featured.identifier %}
+  <div class="small text-muted mt-2">
+    <p class="section-label">
+      Identifier #: 
+      <a 
+        href="{{ '/items/' | append: featured.objectid | append: '.html' | relative_url }}"
+        class="text-white text-decoration-underline"
+      >
+        {{ featured.identifier }}
+      </a>
+    </p>
+  </div>
+{% endif %}
+</div>
+
+</div>
+
+<script>
+  window.location.hash = "collection:tisha_taylor";
+</script>
+
+</div>
+
