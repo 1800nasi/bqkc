@@ -51,9 +51,6 @@
   | {{ figure.description }}
 
   {% if figure.date_created or figure.collection %}
-  
-    <em>({% if figure.date_created %}{{ figure.date_created }}{% endif %}{% if figure.collection %}{% if figure.date_created %}.{% endif %} Licensed for use as part of the {{ figure.collection }} of {B/qKC})</em>
-    {% endif %}
     
   {% endif %}
 

@@ -160,7 +160,8 @@ $toc-a-color: #191919 !default;
     bottom: 0;
     z-index: 99;
     width: 100%;
-    background-color: var(--bs-body-bg);
+    background-color: black;
+    text-decoration: none;
 }
 #about-toc-title {
     button { 
@@ -174,7 +175,7 @@ $toc-a-color: #191919 !default;
 .jekyll-toc-list { 
     list-style: none;
     padding-left: 0;
-    font-style: italic;
+    font-style: none;
 
     ul, ol {
         padding-left: 0;

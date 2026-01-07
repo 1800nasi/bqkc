@@ -84,3 +84,37 @@ layout: default
     </div>
     {% endif %}
 </div>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const tocLinks = document.querySelectorAll("#about-toc-list a");
+  const headings = document.querySelectorAll("h1, h2, h3");
+
+  let activeId = null;
+
+  const observer = new IntersectionObserver(
+    entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          activeId = entry.target.id;
+
+          tocLinks.forEach(link => link.classList.remove("active"));
+
+          const activeLink = document.querySelector(
+            `#about-toc-list a[href="#${activeId}"]`
+          );
+
+          if (activeLink) {
+            activeLink.classList.add("active");
+          }
+        }
+      });
+    },
+    {
+      rootMargin: "-20% 0px -60% 0px",
+      threshold: 0
+    }
+  );
+
+  headings.forEach(heading => observer.observe(heading));
+});
+</script>

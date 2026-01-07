@@ -1,15 +1,22 @@
 display_name,stub,dropdown_parent
 HOME,/,
-the_ARCHIVE,/browse.html,
+THE_ARCHIVE,/browse.html,
 COLLECTIONS,,
 EXPLORE,,
 READ,,
 SUBJECTS,/subjects.html,EXPLORE
 MAP,/map.html,EXPLORE
 METADATA,/data.html,EXPLORE
-ABOUT,/about.html,
+ABOUT,,
+ABOUT THE ARCHIVE,/about.html,ABOUT
+COPYRIGHT & TERMS,/copyright.html,ABOUT
+CONTACT US,/contact.html,ABOUT
+SUBSCRIBE TO NEWSLETTER,https://1800nasi.substack.com,ABOUT
 gary_carrington,/collections/gary-carrington/,COLLECTIONS
 starla_carr,/collections/starla-carr/,COLLECTIONS
 tisha_taylor,/collections/tisha-taylor/,COLLECTIONS
-Remembering Soakie's,/soakies.html,READ
+REMEMBERING SOAKIE'S,/read/soakies.html,READ
+EDYE GREGORY & RAY RONDELL,/read/edye-and-ray.html,READ
+'OUT THERE': GAY & LESBIAN VARIETY SHOWS,/read/out-there.html,READ
+MACT-KC,/read/mact-kc.html,READ
 DONATE,/donate.html,
