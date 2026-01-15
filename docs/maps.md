@@ -54,13 +54,13 @@ The map page supports parsing a query string to set the center and display an It
 If the url includes a query string, it will be parsed and set as the map view box with full zoom and open the popup.
 
 Item pages that have lat/long will generate a "View on Map" button link. 
-These link to the "map.html" page with a query string created from their lat long and objectid.
+These link to the "map/" page with a query string created from their lat long and objectid.
 
 For example: 
-`/map.html?location=46.726113,-117.015671&marker=example_004`
+`/map/?location=46.726113,-117.015671&marker=example_004`
 
 This can be created using the Liquid:
-`{{ '/map.html?location=' | append: page.latitude  | append: ',' | append: page.longitude | append: '&marker=' | append: page.objectid | relative_url }}`
+`{{ '/map/?location=' | append: page.latitude  | append: ',' | append: page.longitude | append: '&marker=' | append: page.objectid | relative_url }}`
 
 ## Customizing the Base Map
 

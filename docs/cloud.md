@@ -24,7 +24,7 @@ The settings also create matching data outputs in the "/assets/data/" folder.
 If `subjects-fields` or `locations-fields` is blank or commented out, the template will not build out the related cloud page or data, which saves build time. 
 If you are developing a particularly large collection, you can comment out these options to make rebuild much quicker. 
 
-Keep in mind these page stubs (`/subjects.html`, `/locations.html`) will also have to be present in "config-nav.csv" to show up in your navigation, and to have the data files to show up in data download options. 
+Keep in mind these page stubs (`/subjects/`, `/locations.html`) will also have to be present in "config-nav.csv" to show up in your navigation, and to have the data files to show up in data download options. 
 
 ## Cloud Layout and Front matter
 

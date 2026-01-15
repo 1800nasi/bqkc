@@ -1,7 +1,7 @@
 ---
 title: Map
 layout: map
-permalink: /map.html
+permalink: /map/
 ---
 
 ## Mapping The Archive

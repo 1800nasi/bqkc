@@ -763,6 +763,34 @@ blockquote {
     margin: 1rem 0;
   }
 }
+#technical {
+  background-color: #f8f9fa;
+  color: #000;
+}
+
+#technical .bg-white {
+  background-color: #ffffff !important;
+  color: #000 !important;
+}
+
+#technical h3 {
+  color: #000;
+}
+
+#technical p {
+  color: #000;
+}
+.donor-list {
+  list-style: none;
+  padding-left: 0;
+  font-size: 0.9em;
+}
+
+.donor-list em {
+  font-size: 0.95em;
+  color: #555;
+}
+
 
 
 

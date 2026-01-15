@@ -20,10 +20,10 @@ source-code: https://github.com/CollectionBuilder/collectionbuilder-csv
 # title of site appears in banner
 title: "{B/qKC}"
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: a decentralized, digital archive of Black queer Kansas City history
+tagline: a decentralized archive of Black queer Kansas City history
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "This is the official database for {B/qKC}: a decentralized, digital archive challenging out-dated archival practices within the frame and study of midwestern Black queer history."
+description: "{B/qKC} is a decentralized archival project challenging out-dated institutional practices within the frame and study of midwestern Black queer history."
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
 keywords: kansas city; history; queer; black
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
@@ -60,7 +60,7 @@ organization-logo-nav: false
 # ROBOTS EXCLUDE
 #
 # set noindex to true if you do NOT want Google to index your site
-# noindex: true 
+# noindex: false 
 
 ##########
 # BUILD SETTINGS 

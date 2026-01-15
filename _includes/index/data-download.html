@@ -13,7 +13,7 @@
 {%- assign stubs = site.data.config-nav | map: 'stub' | join: ';' -%}
 <div class="card mb-3">
     <div class="card-body">
-        <p><small>Download this collection's metadata in a variety of reusable formats. Beware of this archive's copyright information!</small></p>
+        <p><small>Download this collection's metadata in a variety of reusable formats. Psst: <a href="/copyright/" target="_blank">check out this archive's copyright information before downloading!</a></small></p>
         <p class="card-text text-center">
             <a class="btn btn-sm btn-secondary m-1" href="{{ '/assets/data/metadata.csv' | relative_url }}" download>Metadata CSV</a>
             <a class="btn btn-sm btn-secondary m-1" href="{{ '/assets/data/metadata.json' | relative_url }}" target="_blank">Metadata JSON</a>

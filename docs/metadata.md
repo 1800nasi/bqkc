@@ -1,6 +1,6 @@
 # Metadata Standards for CB-CSV
 
-See general documentation: <https://collectionbuilder.github.io/cb-docs/docs/metadata/>
+See general documentation: <https://collectionbuilder.github.io/cb-docs/docs/metadata.html>
 
 ## Required fields
 

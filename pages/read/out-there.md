@@ -205,7 +205,7 @@ According to a July 11, 1994 article by AP News, however, [the Amendment Coaliti
 [Lea Hopkins](https://libweb.umkc.edu/GLAMA/oral-histories-moreinfo/38) has been an instrumental Black, Lesbian organizer in Kansas City for decades. Hopkins was behind the first Gay Pride Parade in Kansas City in 1979, and [43 years later was a Grand Marshall for Kansas City's Pride Alliance Parade earlier this year](https://www.instagram.com/reel/CjsbDmpDkrV/?utm_source=ig_web_copy_link). Because of her work, she has undoubtedly pushed acceptance for Black Queer people to once unthinkable heights in the Midwest. Hopkins' role on Out There was to serve as a spokesperson for GLAAD, presumably because of her extensive involvement with the organization. 
 
 <blockquote class="quote-box">
-  <p class="quote-text"><a href="https://www.ulkc.org/2023-state-of-black-kc" target="_blank">Listen to Lea Hopkins' interview with Austin R. Williams</a>, as part of GLAMA's Oral History project, as she discusses her early days, moving to New York and becoming involved with Christopher Street, and organizing the first Gay Pride Parade in Kansas City.</p>
+  <p class="quote-text"><a href="https://libweb.umkc.edu/GLAMA/oral-histories-moreinfo/38" target="_blank">Listen to Lea Hopkins' interview with Austin R. Williams</a>, as part of GLAMA's Oral History project, as she discusses her early days, moving to New York and becoming involved with Christopher Street, and organizing the first Gay Pride Parade in Kansas City.</p>
 </blockquote>
 
 

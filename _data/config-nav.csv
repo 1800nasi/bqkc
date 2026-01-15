@@ -1,22 +1,23 @@
 display_name,stub,dropdown_parent
 HOME,/,
-THE_ARCHIVE,/browse.html,
+THE_ARCHIVE,/browse/,
 COLLECTIONS,,
 EXPLORE,,
 READ,,
-SUBJECTS,/subjects.html,EXPLORE
-MAP,/map.html,EXPLORE
-METADATA,/data.html,EXPLORE
+SUBJECTS,/subjects/,EXPLORE
+MAP,/map/,EXPLORE
+DATA,/data/,EXPLORE
 ABOUT,,
-ABOUT THE ARCHIVE,/about.html,ABOUT
-COPYRIGHT & TERMS,/copyright.html,ABOUT
-CONTACT US,/contact.html,ABOUT
+ABOUT THE ARCHIVE,/about/,ABOUT
+COPYRIGHT & TERMS,/copyright/,ABOUT
+CONTACT US,/contact/,ABOUT
 SUBSCRIBE TO NEWSLETTER,https://1800nasi.substack.com,ABOUT
 gary_carrington,/collections/gary-carrington/,COLLECTIONS
 starla_carr,/collections/starla-carr/,COLLECTIONS
 tisha_taylor,/collections/tisha-taylor/,COLLECTIONS
-REMEMBERING SOAKIE'S,/read/soakies.html,READ
-EDYE GREGORY & RAY RONDELL,/read/edye-and-ray.html,READ
-'OUT THERE': GAY & LESBIAN VARIETY SHOWS,/read/out-there.html,READ
-MACT-KC,/read/mact-kc.html,READ
-DONATE,/donate.html,
+REMEMBERING SOAKIE'S: KC'S FORMER BLACK GAY BAR,/read/soakies/,READ
+DRAG QUEENS EDYE GREGORY & RAY RONDELL,/read/edye-and-ray/,READ
+'OUT THERE': A GAY & LESBIAN VARIETY SHOW,/read/out-there/,READ
+MEN OF ALL COLORS TOGETHER-KC,/read/mact-kc/,READ
+ERASURE OF BLACK QUEER PEOPLE IN KANSAS CITY,/read/erasure/,READ
+DONATE,/donate/,

@@ -27,7 +27,7 @@ A link to the source code repository will be included if `source-code` is set in
 The data found in `/assets/data/` can be seen as a "datapackage" containing all the derivatives related to the collection.
 This data is described by two markup standards. 
 
-First, the Data page (`/data.html`) contains [schema.org Dataset](https://schema.org/Dataset) markup embedded on the page in json+ld format (written in the `_includes/data-download-modal.html` file). 
+First, the Data page (`/data/`) contains [schema.org Dataset](https://schema.org/Dataset) markup embedded on the page in json+ld format (written in the `_includes/data-download-modal.html` file). 
 This markup is [required by Google](https://developers.google.com/search/docs/data-types/dataset) to be indexed into their datasets search engine. 
 
 Second, `/assets/data/` contains `datapackage.json` as described by the Frictionless Data [Data Package Spec](https://specs.frictionlessdata.io/data-package/).

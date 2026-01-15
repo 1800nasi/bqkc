@@ -30,7 +30,7 @@ The resulting front matter might look like:
 ---
 title: About
 layout: about
-permalink: /about.html
+permalink: /about/
 custom-foot: js/example.html;js/another_example.html
 ---
 ```

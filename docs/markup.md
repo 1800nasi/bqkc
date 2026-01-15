@@ -92,8 +92,8 @@ If the config-nav contains the following "stub", the following data files will b
 - "timeline", timelinejs.json
 
 This may not be accurate for all use cases. 
-An easy way to manually set the downloads, is to create a list based on the stub values shown above, and edit the "stubs" assigned on the data.html layout. 
-For example, if I want to show all data downloads, even though I don't have the pages in the navigation or have named them something different, edit the "assign stubs" line on data.html like this:
+An easy way to manually set the downloads, is to create a list based on the stub values shown above, and edit the "stubs" assigned on the data/ layout. 
+For example, if I want to show all data downloads, even though I don't have the pages in the navigation or have named them something different, edit the "assign stubs" line on data/ like this:
 
 `{%- assign stubs = "subject;map;location;timeline" -%}`
 
