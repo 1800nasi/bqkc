@@ -27,8 +27,17 @@
                     {%- assign childStubs = navChildren | map: 'stub' -%}
                     <a class="nav-link  dropdown-toggle{% if childStubs contains page.url %} active{% endif %}" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">{{ nav.display_name }}</a>
                     <div class="dropdown-menu">
-                        {% for c in navChildren %}
-                        <a class="dropdown-item {% if page.url == c.stub %}active{% endif %}" href="{{ c.stub | relative_url }}">{{ c.display_name }}</a>
+                       {% for c in navChildren %}
+                        {% if c.stub %}
+                            <a class="dropdown-item {% if page.url == c.stub %}active{% endif %}"
+                            href="{{ c.stub | relative_url }}">
+                            {{ c.display_name }}
+                            </a>
+                        {% else %}
+                            <div class="dropdown-header nav-section-label">
+                            {{ c.display_name }}
+                            </div>
+                        {% endif %}
                         {% endfor %}
                     </div>
                 </li>

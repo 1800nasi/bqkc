@@ -1,7 +1,7 @@
 ---
 title: "Out There"
 layout: about
-permalink: /read/out-there.html
+permalink: /read/out-there/
 # include CollectionBuilder info at bottom
 credits: false
 # featured-image value can be one objectid for a photo object in this collection, a relative path to an image in this project, or a full url to any image. If left blank, no featured image will appear at top of About page.

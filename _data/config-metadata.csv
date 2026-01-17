@@ -8,7 +8,7 @@ location,Location,,,,contentLocation
 latitude,Latitude,,,,
 longitude,Longitude,,,,
 source,Source,,,,
-objectid,Identifier #,,,,
+objectid,Object ID #,,,,
 type,Type,,,DCTERMS.type,
 format,Format,,,,encodingFormat
 language,Language,,,DCTERMS.language,

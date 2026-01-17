@@ -1,7 +1,7 @@
 ---
 title: Edye Gregory And Ray Rondell
 layout: about
-permalink: /read/edye-and-ray.html
+permalink: /read/edye-and-ray/
 # include CollectionBuilder info at bottom
 credits: false
 # featured-image value can be one objectid for a photo object in this collection, a relative path to an image in this project, or a full url to any image. If left blank, no featured image will appear at top of About page.

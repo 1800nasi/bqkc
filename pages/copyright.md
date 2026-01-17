@@ -22,6 +22,13 @@ padding: 6em
 
 A majority of {B/qKC}'s materials are protected by third party rights or licensed under **CC BY-NC-ND 4.0 (Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International)**.
 
+<div class="float-img float-right">
+<blockquote class="quote-box">
+  <p class="quote-text">"We, as a Black gay community, we need a place where we can say, hey, this is ours. This is us." </p>
+  <p class="quote-attrib">From <a href="/items/garycoll029.html" target="_blank">"The Father: interview with Gary Carrington"</a></p>
+</blockquote>
+</div>
+
 This means:
 
 - You are allowed to **share** — copy and redistribute the material in any medium or format.
@@ -37,4 +44,4 @@ Under the following terms:
 
 *You are responsible for obtaining necessary permissions*. {B/qKC}'s collections contain a wide range of content. You are responsible for clearing the necessary rights in order to use the materials in question. For example, if you want to download a photo that is still protected by copyright for use in a research paper, you must determine whether your proposed use requires consent from the copyright holder, and, if so, you must secure the permission of the copyright holder. In some cases, you may also need to secure the consent of people who appear in photographs in our collections.
 
-If you have any questions, please contact us!
+If you have any questions, please [contact us](/contact/)!

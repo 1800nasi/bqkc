@@ -1,7 +1,7 @@
 ---
 title: Remembering Soakie's
 layout: about
-permalink: /read/soakies.html
+permalink: /read/soakies/
 # include CollectionBuilder info at bottom
 credits: false
 # featured-image value can be one objectid for a photo object in this collection, a relative path to an image in this project, or a full url to any image. If left blank, no featured image will appear at top of About page.
@@ -334,7 +334,7 @@ It is with great honor that I welcome her collection to {B/qKC}.
 <blockquote class="quote-box">
   <p class="quote-text">The "starla_carr_collection" is one of the inaugural collections digitized and donated to {B/qKC}. The collection consists of various photos from Carr's time as a seamstress, performer and go-er of Soakies in the early 2000s.</p>
 
-  <p class="quote-text"><a href="/pages/collections/collection-starla.html" target="_blank">view the starla_carr_collection</a></p>
+  <p class="quote-text"><a href="/collections/starla-carr/" target="_blank">view the starla_carr_collection</a></p>
 </blockquote>
 
 ### **Tisha Taylor**
@@ -363,7 +363,7 @@ It is with great honor that I welcome her collection to {B/qKC}.
 <blockquote class="quote-box">
   <p class="quote-text">The “tisha_taylor_collection” is one of the inaugural collections digitized and donated to {B/qKC}. The collection consists of various photos from Taylor’s time at Soakie’s and Kansas City’s Black Pride in 1999. </p>
 
-  <p class="quote-text"><a href="/pages/collections/collection-tisha.html" target="_blank">view the tisha_taylor_collection</a></p>
+  <p class="quote-text"><a href="/collections/tisha-taylor/" target="_blank">view the tisha_taylor_collection</a></p>
 </blockquote>
 
 ### **Gary Carrington **
@@ -396,7 +396,7 @@ It is with great honor that I welcome his collection to {B/qKC}.
 <blockquote class="quote-box">
   <p class="quote-text">The “gary_carrington_collection” is one of the inaugural collections digitized and donated to {B/qKC}. The collection consists of various photos from Carrington’s time at Soakie’s, as well as clippings from KC Exposures.</p>
 
-  <p class="quote-text"><a href="/pages/collections/collection-gary.html" target="_blank">view the gary_carrington_collection</a></p>
+  <p class="quote-text"><a href="/collections/gary-carrington/" target="_blank">view the gary_carrington_collection</a></p>
 </blockquote>
 
 **Closing Shift: Gentrification of Downtown Kansas City**

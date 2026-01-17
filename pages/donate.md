@@ -5,21 +5,32 @@ permalink: /donate/
 # include CollectionBuilder info at bottom
 credits: true
 # featured-image value can be one objectid for a photo object in this collection, a relative path to an image in this project, or a full url to any image. If left blank, no featured image will appear at top of About page.
+about-featured-image: garycoll019
+# set background-position for featured image, "center", "top", "bottom"
 position: center
 # major heading to display over featured image
+heading: "Donate"
+# paragraph text below heading in featured image
 sub-heading: 
 # additional padding added to the feature to increase size. Give value in em or px, e.g. "5em".
+padding: 6em
+# Edit the markdown on in this file to describe your collection
+# Look in _includes/feature for options to easily add features to the page
+---
 ---
 
-# Supporting this archive
+# Help take care of this archive like the community it comes from.
 
-{B/qKC} is a fiscally-sponsored artist project. {B/qKC} is kept open by people like *you* who choose to donate to this work. By limiting the people we accept donations, grants and sponsorships from, we remain accountable to the people who truly believe in our work.
+{B/qKC} is a fiscally-sponsored artist project. {B/qKC} is kept open by people like *you* who choose to donate to this work. By limiting the people we accept grants and sponsorships from and relying on crowdfunding, we remain accountable to the people who truly believe in our work.
 
 We have had over 100+ donations in the two years before launching this website in early 2026. We would *love* to encourage folks to contribute monthly/regularly.
 
 The options below are through {B/qKC}'s fiscal sponsor, The Field. Your donation through this organization will be registered as tax-deductible. 
 
 *Please contact us for more donation options.*
+
+<script src="https://app.thefield.org/home/donation/general/650187/0"></script>
+<iframe src="https://app.thefield.org/home/donation/general/650187/0" width="500" height="600"></iframe>
 
 ---
 ## Our donors
@@ -94,23 +105,23 @@ $1,000 <br>
 Any organizations looking to support this work should contact us directly. Please us the button below to email us.
 <div style="text-align: center; margin: 2rem 0;">
   {% include feature/button.html 
-     text="Inquire" 
-     link="mailto:nasiranthonymontalvo@gmail.com" 
+     text="Inquire about sponsorship/group donation" 
+     link="mailto:1800nasi@tutamail.com?subject=Organizational Sponsorship, [INSERT NAME]&amp;body=Please include information about your interest in sponsoring or donating to {B/qKC} as an organization. Thank you for your support! &lt;3" 
      color="success" %}
 </div>
 
 ---
 
 ## Donating my material to the archive
-We are currently able to digitize materials related to Soakie's! 
+We are currently able to digitize materials related to [Soakie's](/read/soakies/)! 
 
-Unfortunately, we are not readily available to digitize additional archival materials at this time, but hope to soon! This project has traditionally been pursued in volumes, and it is the current mission of {B/qKC} to permanently memorialize Soakie's in various shapes and forms.
+Unfortunately, we are not readily available to digitize additional archival materials at this time, but hope to soon! This project has traditionally been pursued in volumes, and it is the current mission of {B/qKC} to permanently memorialize Soakie's in various shapes and forms before continuing on.
 
 For information on our digitization policy, please contact us.
 
 <div style="text-align: center; margin: 2rem 0;">
   {% include feature/button.html 
-     text="Inquire" 
-     link="mailto:nasiranthonymontalvo@gmail.com" 
+     text="Inquire about material donation" 
+     link="mailto:1800nasi@tutamail.com?subject=Material Donation, [INSERT NAME]&amp;body=Please include information about materials you'd like to donate to {B/qKC}, and/or questions about our digitization policy. We will be in touch soon! Thank you for your care. &lt;3"
      color="success" %}
 </div>

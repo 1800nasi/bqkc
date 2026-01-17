@@ -5,7 +5,7 @@ permalink: /about/
 # include CollectionBuilder info at bottom
 credits: true
 # featured-image value can be one objectid for a photo object in this collection, a relative path to an image in this project, or a full url to any image. If left blank, no featured image will appear at top of About page.
-about-featured-image: garycoll019
+about-featured-image: starlacoll031
 # set background-position for featured image, "center", "top", "bottom"
 position: center
 # major heading to display over featured image
@@ -20,15 +20,15 @@ padding: 6em
 
 # **{B/qKC}** is a *decentralized* archival project challenging out-dated institutional practices within the frame and study of Black queer history.
 
-Under a reinvigorated wave of white nationalism and fascism post-2016, our historical record continues to be warped, distorted, and/or erased; **we are actively being indoctrinated**. 
+Under a reinvigorated wave of white nationalism and fascism post-2016, our historical record continues to be warped, distorted, and erased; **we are actively being indoctrinated**. 
 
-Our treasured mementos, amassed by institutional libraries, archives and universities, and are effectively being <a href="https://www.npr.org/2025/03/07/nx-s1-5321003/pentagon-images-flagged-removal-dei-purge-trump" target="blank">deleted by President Donald J. Trump and his Project 2025 agenda.</a> 
+Our treasured mementos, amassed by institutional libraries, archives and universities, are effectively being <a href="https://www.npr.org/2025/03/07/nx-s1-5321003/pentagon-images-flagged-removal-dei-purge-trump" target="blank">deleted by President Donald J. Trump and his Project 2025 agenda.</a> 
 
-Thousands of miles away, the worst manifestations of fascist indoctrination occur in Palestine, <a href="https://librarianswithpalestine.org/gaza-report-2024/" target="blank">where israel has deliberately bombed and destroyed museums, archives, libraries and, as a result, thousands of irreplaceable historic materials to erase Palestinian existence from our memories</a>.
+And across the world, the worst manifestations of fascist indoctrination occur in Palestine, <a href="https://librarianswithpalestine.org/gaza-report-2024/" target="blank">where israel has deliberately bombed and destroyed museums, archives, libraries–as a result, destroying many significant historic materials to erase Palestinian existence from our memories</a>.
 
-*The ways we decide to document and collect our histories can no longer be done passively or uncritically. Memory work must be an active, radical process.*
+There is a damning need to be stewards of our own histories and protect them at all costs. The ways we decide to document and collect our histories can no longer be done passively or uncritically. Memory work must be an *active*, radical process.
 
-{B/qKC} was founded as a radical community archive on March 1st, 2024, operating on the principles accessible *storytelling*, *repair* of our historical record, and intergenerational *power building*–all within the frame and study of midwestern Black queer experience.
+{B/qKC} was founded as an official community archive on March 1st, 2024, operating on the principles of accessible *storytelling*, *repair* of our historical record, and intergenerational *power building*–all within the frame and study of midwestern Black queer history.
 
 <figure style="display: inline-block; max-width: 100%;">
   <img src="/assets/img/bqkc-diagram.png" 
@@ -59,7 +59,7 @@ We aim to build and maintain an intuitive, open-access digital archive stewarded
 ##### 3. **DIFFUSION OF KNOWLEDGE**
 We aim to teach any and all communities about the significance of this archive's materials, and the overall importance of radical memory work.
 ##### 4. **PRESERVATION OF AT-RISK MATERIALS**
-We aim to create digital snapshots of Black queer historical materials, ensuring a record of Black queer midwestern histories can be saved, maintained, and reproduced physically––ensuring long-term sustainability of our stories.
+We aim to create digital snapshots of Black queer historical materials, ensuring a record of Black queer midwestern histories can be saved, maintained, and reproduced physically–ensuring long-term sustainability of our stories.
 ##### 5. **PERMANENT AND DECENTRALIZED PRESENCE**
 We aim for Black queer stories to occupy public spaces physically and digitally to ensure permanence of our stories, while simultaneously increasing Black queer visibility.
 

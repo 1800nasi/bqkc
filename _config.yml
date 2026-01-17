@@ -8,11 +8,12 @@
 # URL VARIABLES
 #
 # site domain, full URL to the production location of your collection
-url: 
+url: https://bqkc.1800nasi.net
 # path to location on the domain if necessary e.g. /digital/hjccc
 baseurl: 
 # location of code, the full url to your github repository
 source-code: https://github.com/CollectionBuilder/collectionbuilder-csv
+
 
 ##########
 # SITE SETTINGS
@@ -23,7 +24,7 @@ title: "{B/qKC}"
 tagline: a decentralized archive of Black queer Kansas City history
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "{B/qKC} is a decentralized archival project challenging out-dated institutional practices within the frame and study of midwestern Black queer history."
+description: "This is the database and official site for {B/qKC}: an archival project challenging institutional archival practices within the frame and study of midwestern Black queer history."
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
 keywords: kansas city; history; queer; black
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name

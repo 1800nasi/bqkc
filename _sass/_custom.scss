@@ -66,13 +66,13 @@ header a * {
 
 .footer-logo-spinner {
   display: flex;
-  justify-content: flex-end;  /* align logo to the right on desktop */
+  justify-content: flex-end; 
   padding: 0.5rem 0;
 }
 
 .footer-logo-spinner video {
-  width: 300px;          /* tweak as needed */
-  max-width: 100%;       /* don’t overflow on small screens */
+  width: 300px;          
+  max-width: 100%;       
   height: auto;
 }
 
@@ -450,6 +450,44 @@ main #title p {
     font-size: 1.25rem;
   }
 }
+/* top-right portfolio return link */
+
+.portfolio-site-link {
+  position: absolute;
+  top: 1rem;
+  right: 1.25rem;
+  z-index: 10;
+
+  font-size: 0.7rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-weight: 600;
+
+  color: rgba(255, 255, 255, 0.85);
+  text-decoration: none;
+
+  padding: 0.35rem 0.6rem;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.portfolio-site-link:hover,
+.portfolio-site-link:focus {
+  color: #ffffff;
+  border-color: rgba(255, 255, 255, 0.75);
+  text-decoration: none;
+}
+@media (max-width: 575px) {
+  .portfolio-site-link {
+    font-size: 0.65rem;
+    padding: 0.3rem 0.5rem;
+    top: 0.75rem;
+    right: 0.75rem;
+  }
+}
+
+
 /* animations */
 .modal-content .card.mb-4.text-center small {
   color: #000000 !important;       
@@ -574,9 +612,7 @@ blockquote {
   max-width: 700px;
 }
 
-/* =========================
-   ABOUT TOC
-========================= */
+/* toc */
 
 #about-toc {
   background-color: #000000;
@@ -586,7 +622,6 @@ blockquote {
   top: 1rem;
 }
 
-/* Remove Bootstrap italics everywhere */
 #about-toc,
 #about-toc * {
   font-style: normal;
@@ -666,23 +701,23 @@ blockquote {
 }
 
 @media (max-width: 768px) {
-  /* TOC card stacks above the back-to-top button */
+  
   #about-toc {
-    position: sticky;           /* keeps it visible when scrolling */
-    bottom: 1rem;             /* push it above the button */
-    margin-bottom: 0;           /* remove default bottom margin */
-    z-index: 998;               /* below the button (which is 9999) */
-    max-width: 95%;             /* optional: prevent full width to fit nicely */
+    position: sticky;           
+    bottom: 1rem;             
+    margin-bottom: 0;           
+    z-index: 998;               
+    max-width: 95%;             
     margin-left: auto;
     margin-right: auto;
   }
 
-  /* keep back-to-top floating above TOC */
+  
   #scroll-to-top {
     position: fixed;
     bottom: 4.5rem;
     right: 1rem;
-    z-index: 9999;              /* always on top */
+    z-index: 9999;              
     transition: transform 0.2s ease, box-shadow 0.2s ease;
   }
 }
@@ -789,6 +824,18 @@ blockquote {
 .donor-list em {
   font-size: 0.95em;
   color: #555;
+}
+.dropdown-header.nav-section-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+  color: rgba(0,0,0,0.6);
+  padding: 0.5rem 1rem;
+}
+.dropdown-header.nav-section-label:not(:first-child) {
+  margin-top: 0.5rem;
+  border-top: 1px solid rgba(0,0,0,0.1);
 }
 
 

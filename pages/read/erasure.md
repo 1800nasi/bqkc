@@ -1,7 +1,7 @@
 ---
 title: The Erasure and (Sexual) Subjugation of Black Queer Kansas Citians; A Brief Historical Look
 layout: about
-permalink: /read/erasure.html
+permalink: /read/erasure/
 # include CollectionBuilder info at bottom
 credits: false
 # featured-image value can be one objectid for a photo object in this collection, a relative path to an image in this project, or a full url to any image. If left blank, no featured image will appear at top of About page.
@@ -38,7 +38,7 @@ BY [NASIR MONTALVO](https://1800nasi.net) ● ORIGINALLY PUBLISHED IN THE KAN
   <p class="quote-attrib">Frantz Fanon, "Black Skin, White Masks"</p>
 </blockquote>
 
-The Dixie Belle Bar is lauded, perhaps, as one of the most nostalgic places for Kansas City's LGBT nightlife from 1983 to 2006[^1]–but it was also once one of Kansas City's most racist queer establishments. On July 27, 1993, Yul Stell, a Black organizer with [Men Of All Colors Together--Kansas City](https://kansascitydefender.com/lgbtqia2/men-of-all-colors-together/), penned an open letter to the Dixie Belle [^2]. In the letter, he condemned the bar for displaying a confederate flag and called out racial practices the bar upheld–requiring that Black folk show four to five pieces of identification for entry into the establishment and placing a quota on Black folk who could be in the bar at one-time[^3]. Since the bar closed in 2006, Dixie Belle has developed a cult-like following: former patrons have hosted throwback events and posted nostalgic photos, and the bar was most recently featured as a stop on the Kansas City Rainbow Tour [^4].
+The Dixie Belle Bar is lauded, perhaps, as one of the most nostalgic places for Kansas City's LGBT nightlife from 1983 to 2006[^1]–but it was also once one of Kansas City's most racist queer establishments. On July 27, 1993, Yul Stell, a Black organizer with [Men Of All Colors Together--Kansas City](/read/mact-kc/), penned an open letter to the Dixie Belle [^2]. In the letter, he condemned the bar for displaying a confederate flag and called out racial practices the bar upheld–requiring that Black folk show four to five pieces of identification for entry into the establishment and placing a quota on Black folk who could be in the bar at one-time[^3]. Since the bar closed in 2006, Dixie Belle has developed a cult-like following: former patrons have hosted throwback events and posted nostalgic photos, and the bar was most recently featured as a stop on the Kansas City Rainbow Tour [^4].
 
 - - -
 

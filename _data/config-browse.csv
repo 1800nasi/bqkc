@@ -3,5 +3,5 @@ date_created,Date,,,Date Created
 description,,,true,
 subject,,true
 location,,true,,,Location
-identifier,,,true,Identifier
+objectid,Object ID #,,,ID #
 collection, Collection,true,,,,
