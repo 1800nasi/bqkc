@@ -157,5 +157,7 @@ The table below provides sorting and basic search of the archive's contents.
 Use the "CSV" button below to download the filtered metadata you see on the page. 
 Alternatively, click the "Download" button at the top right to view the full archive's metadata in various formats. 
 
-{% include data-download-modal.html %}
+
+{% include data-download-modal.html no_toc=true %}
+
 {% include data-table.html %}

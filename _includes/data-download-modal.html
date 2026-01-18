@@ -12,17 +12,16 @@
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h1 class="modal-title" id="dataModalLabel">Collection Data</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
 
-                <p>Download this collection's data in a variety of reusable formats. Beware of this archive's copyright information!</p>
+                <p class="no toc">Download this collection's data in a variety of reusable formats. Beware of this archive's copyright information!</p>
                 
                 {% if site.data.theme.metadata-export-fields %}
                 <div class="card my-3">
                     <div class="card-body">
-                        <h2 class="card-title h4">Complete Metadata</h2>
+                        <h2 class="card-title h4 no toc">Complete Metadata</h2>
                         <p class="card-text">All metadata fields for all collection items, available as a CSV spreadsheet (usable in Excel, Google Sheets, and similar programs) or JSON file (often used with web applications).</p>
                         <a href="{{ '/assets/data/metadata.csv' | relative_url }}" class="btn btn-outline-dark" download>Metadata CSV</a>
                         <a href="{{ '/assets/data/metadata.json' | relative_url }}" class="btn btn-outline-dark" target="_blank">Metadata JSON</a>
@@ -32,8 +31,8 @@
                 {% if site.data.theme.metadata-facets-fields %}
                 <div class="card my-3">
                     <div class="card-body">
-                        <h2 class="card-title h4">Metadata Facets</h2>
-                        <p class="card-text">List of unique values and their count for specific metadata fields, useful for understanding content of the fields.</p>
+                        <h2 class="card-title h4 no toc">Metadata Facets</h2>
+                        <p class="card-text no toc">List of unique values and their count for specific metadata fields, useful for understanding content of the fields.</p>
                         <a href="{{ '/assets/data/facets.json' | relative_url }}" class="btn btn-outline-dark" target="_blank">Facets JSON</a>
                     </div>
                 </div>
@@ -41,8 +40,8 @@
                 {% if stubs contains "subject" %}
                 <div class="card my-3">
                     <div class="card-body">
-                        <h2 class="card-title h4">Subject Metadata</h2>
-                        <p class="card-text">Unique values and counts of subject metadata, useful for further analyzing the content of this collection.</p>
+                        <h2 class="card-title h4 no toc">Subject Metadata</h2>
+                        <p class="card-text no toc">Unique values and counts of subject metadata, useful for further analyzing the content of this collection.</p>
                         <a href="{{ '/assets/data/subjects.csv' | relative_url }}" class="btn btn-outline-dark" download>Subjects CSV</a>
                         <a href="{{ '/assets/data/subjects.json' | relative_url }}" class="btn btn-outline-dark" target="_blank">Subjects JSON</a>
                     </div>
@@ -51,8 +50,8 @@
                 {% if stubs contains "location" %}
                 <div class="card my-3">
                     <div class="card-body">
-                        <h2 class="card-title h4">Locations</h2>
-                        <p class="card-text">Unique values and counts of location metadata, useful for further visualization and analysis of this collection's place names.</p>
+                        <h2 class="card-title h4 no toc">Locations</h2>
+                        <p class="card-text no toc">Unique values and counts of location metadata, useful for further visualization and analysis of this collection's place names.</p>
                         <a href="{{ '/assets/data/locations.csv' | relative_url }}" class="btn btn-outline-dark" download>Locations CSV</a>
                         <a href="{{ '/assets/data/locations.json' | relative_url }}" class="btn btn-outline-dark" target="_blank">Locations JSON</a>
                     </div>
@@ -61,8 +60,8 @@
                 {% if stubs contains "map" %}
                 <div class="card my-3">
                     <div class="card-body">
-                        <h2 class="card-title h4">GeoJSON</h2>
-                        <p class="card-text">Metadata for all collection items that have geographic coordinates in <a href="https://en.wikipedia.org/wiki/GeoJSON">GeoJSON</a> format, useful for further exploration and analysis of this collection through a geographical lense.</p>
+                        <h2 class="card-title h4 no toc">GeoJSON</h2>
+                        <p class="card-text no toc">Metadata for all collection items that have geographic coordinates in <a href="https://en.wikipedia.org/wiki/GeoJSON">GeoJSON</a> format, useful for further exploration and analysis of this collection through a geographical lense.</p>
                         <a href="{{ '/assets/data/geodata.json' | relative_url }}" class="btn btn-outline-dark" target="_blank">Geodata JSON</a>
                     </div>
                 </div>
@@ -70,16 +69,16 @@
                 {% if stubs contains "timeline" %}
                 <div class="card my-3">
                     <div class="card-body">
-                        <h2 class="card-title h4">Timeline</h2>
-                        <p class="card-text">A time-focused JSON data export designed for use with <a href="https://timeline.knightlab.com/">TimelineJS</a>.</p>
+                        <h2 class="card-title h4 no toc">Timeline</h2>
+                        <p class="card-text no toc">A time-focused JSON data export designed for use with <a href="https://timeline.knightlab.com/">TimelineJS</a>.</p>
                         <a href="{{ '/assets/data/timelinejs.json' | relative_url }}" class="btn btn-outline-dark" target="_blank">TimelineJS JSON</a>
                     </div>
                 </div>
                 {%- endif -%}
                 <div class="card my-3">
                     <div class="card-body">
-                        <h2 class="card-title h4">Website Source Code</h2>
-                        <p class="card-text">GitHub repository containing source code for this project built with <a href="https://github.com/CollectionBuilder/collectionbuilder-csv">CollectionBuilder-CSV</a>.</p>
+                        <h2 class="card-title h4 no toc">Website Source Code</h2>
+                        <p class="card-text no toc">GitHub repository containing source code for this project built with <a href="https://github.com/CollectionBuilder/collectionbuilder-csv">CollectionBuilder-CSV</a>.</p>
                         <a href="{{ site.source-code | default: 'https://github.com/CollectionBuilder/collectionbuilder-csv' }}" class="btn btn-outline-dark">Source Code</a>
                     </div>
                 </div>

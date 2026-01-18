@@ -837,6 +837,10 @@ blockquote {
   margin-top: 0.5rem;
   border-top: 1px solid rgba(0,0,0,0.1);
 }
+/* Remove Spotlight auto-fit button */
+.spl-autofit {
+    display: none !important;
+}
 
 
 

@@ -48,18 +48,12 @@
                     <option value="all">All Fields</option>
                     <option value="title">Title</option>
                     {% for f in site.data.config-browse %}{% assign cap-field = f.field | capitalize %}
-                    <option value="{{ f.field }}">{{ f.facet_name | default: f.display_name | default: cap-field }}</option>
+                      <option value="{{ f.field }}">{{ f.facet_name | default: f.display_name | default: cap-field }}</option>
                     {% endfor %}
-                </select>
-            </div>
             <div class="col-10 col-md-6">
                 <input type="text" class="form-control form-control-sm search-input" placeholder="Enter search term">
-                <div class="date-range-inputs">
-                    <div class="date-input-group">
-                        <input type="text" class="form-control form-control-sm start-date" placeholder="Start Date">
-                        <span class="date-separator">to</span>
-                        <input type="text" class="form-control form-control-sm end-date" placeholder="End Date">
-                    </div>
+                <div class="text-input-wrapper">
+                    <input type="text" class="form-control form-control-sm search-input" placeholder="Enter search term">
                 </div>
             </div>
             <div class="col-2 col-md-1">

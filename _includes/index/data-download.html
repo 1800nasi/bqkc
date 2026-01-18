@@ -11,7 +11,11 @@
 
 {%- endcomment -%}
 {%- assign stubs = site.data.config-nav | map: 'stub' | join: ';' -%}
-<div class="card mb-3">
+{% if include.no_toc %}
+  <div class="card mb-3 no_toc">
+{% else %}
+  <div class="card mb-3">
+{% endif %}
     <div class="card-body">
         <p><small>Download this collection's metadata in a variety of reusable formats. Psst: <a href="/copyright/" target="_blank">check out this archive's copyright information before downloading!</a></small></p>
         <p class="card-text text-center">
@@ -37,4 +41,5 @@
             <a class="btn btn-sm btn-secondary m-1" href="{{ site.source-code }}" rel="noopener">Source Code</a>
         </p>
     </div>
+</div>
 </div>

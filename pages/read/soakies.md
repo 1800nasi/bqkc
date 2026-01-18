@@ -79,9 +79,9 @@ BY [NASIR MONTALVO](https://1800nasi.net) ● ORIGINALLY PUBLISHED IN THE KAN
 
 *{B/qKC}* is making this content available for **educational and research purposes**. The Defender has obtained the needed permissions from various copyright holders for the use of this material and presents the majority of this material under a licensing agreement as part of *{B/qKC}*-unless otherwise noted.
 
-*{B/qKC}* does not own any of this licensed content, and none of these works are in the public domain. Permissions to reproduce any of this material must be obtained from the copyright holder. **You are responsible for obtaining written permission from the copyright owners of materials not in the public domain for distribution, reproduction, or other use of protected items beyond educational and personal use.** If you would like to use the materials for screenings, remixes, or any other project please contact us and we will do our best to collaborate with you or put you in contact with the owners. For any inquiries, please email [](mailto:nasir@kansascitydefender.com)<nasiranthonymontalvo@gmail.com> and include links to all the material you wish to reference.
+*{B/qKC}* does not own any of this licensed content, and none of these works are in the public domain. Permissions to reproduce any of this material must be obtained from the copyright holder. **You are responsible for obtaining written permission from the copyright owners of materials not in the public domain for distribution, reproduction, or other use of protected items beyond educational and personal use.** If you would like to use the materials for screenings, remixes, or any other project please contact us and we will do our best to collaborate with you or put you in contact with the owners. For any inquiries, please email [](mailto:1800nasi@tutamail.com)<1800nasi@tutamail.com> and include links to all the material you wish to reference.
 
-If you are the copyright holder and feel for any reason that your work has been presented on this page without your consent, please email <nasiranthonymontalvo@gmail.com> to request the removal from this site.
+If you are the copyright holder and feel for any reason that your work has been presented on this page without your consent, please email <1800nasi@tutamail.com> to request the removal from this site.
 
 </details>
 

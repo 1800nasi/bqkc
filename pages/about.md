@@ -132,3 +132,8 @@ Since 2022, {B/qKC} has launched at least two public exhibitions per year, and e
 ---
 ## Technical Credits
 {% include cb/credits.html %}
+
+
+<blockquote class="quote-box">
+  <p class="quote-text">Learn more about what's powering this site on <a href="/data/">"Our Data"</a> page!</p>
+</blockquote>

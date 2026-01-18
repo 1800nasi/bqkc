@@ -8,9 +8,28 @@
         }
     }
 </script>
-<a href="#maincontent" id="scroll-to-top" class="btn btn-link" title="Back to Top">
+<a href="javascript:void(0)" id="scroll-to-top" class="btn btn-link" title="Back to Top">
     <span class="visually-hidden">Back to top</span>
     <svg class="bi icon-sprite" role="img" aria-label="Up Arrow">
         <use xlink:href="{{ '/assets/css/cb-icons.svg' | relative_url }}#icon-back-to-top"/>
     </svg>
 </a>
+<script>
+    const scrollBtn = document.getElementById("scroll-to-top");
+
+    window.addEventListener("scroll", function () {
+        if (window.scrollY > 500) {
+            scrollBtn.style.display = "block";
+        } else {
+            scrollBtn.style.display = "none";
+        }
+    });
+
+    scrollBtn.addEventListener("click", function () {
+        window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: "smooth"
+        });
+    });
+</script>
