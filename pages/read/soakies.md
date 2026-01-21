@@ -107,7 +107,7 @@ According to a 2019 study by Greggor Mattson[^1], a professor of Sociology at Ob
 In short, we are losing our safe spaces.
 
 <figure style="display: inline-block; max-width: 75%;">
-  <img src="https://journals.sagepub.com/cms/10.1177/2378023119894832/asset/fd1cdc54-041d-4215-a9f5-e3cf92d3ae20/assets/images/large/10.1177_2378023119894832-fig1.jpg" 
+  <img src="/assets/img/10.1177_2378023119894832-fig1.jpg" 
        alt="Gay bar listings in Damron guides at five-year intervals, 1977–2017 and 2019" 
        style="max-width: 100%; height: auto;">
   <figcaption class="figure-caption text-center text-muted" style="font-size: 0.85rem;" margin-top="0.5rem">

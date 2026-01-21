@@ -19,6 +19,10 @@ In accordance with our [mission](/about/), {B/qKC} aims to be the *true* steward
 
 Rather than relying on a third-party service like Google, DropBox, or Squarespace–with rising costs for usage and ethical concerns around our data and their corporate practices–we've chosen to build this site using **open, decentralized and self-hosted infrastructure**.
 
+<blockquote class="quote-line">
+  <p class="quote-text">A very special thank you to Gray Area, TechSoup and FileCoin Foundation and their Cultural Memory Lab for teaching us a lot about DWeb technology and making this all possible. Learn more about the program on their <a href="https://acceleratingmakers.publicgoodapphouse.org/blog/_blog-posts/introducing-the-cultural-memory-lab-cohort-empowering-community-archives-through-decentralized-technology" target="_blank">website.</a></p>
+</blockquote>
+
 ## Huh? Why all this in the first place?
 
 It's hard to imagine our world without central governing authorities–which has ultimately translated to how a majority of us use the web. 
