@@ -47,6 +47,8 @@ Billionaire Elon Musk, for example, infamously purchased Twitter in October 2022
 
 However, there is a growing movement to "decentralize the web" by divorcing from these corporations and using technology to put power into the hands of the people.
 
+---
+
 ## So what does "decentralized" mean here?
 
 At its core, **decentralization means distributing power instead of concentrating it in one place**.
@@ -89,6 +91,8 @@ This means:
 - Pages are simple HTML files, allowing for more useabiltiy and access!
 - The site is pretty fast (you let us know!), stable, and inexpensive to maintain!
 
+---
+
 ## 2. The Archive – Files being served via IPFS (InterPlanetary File System)
 
 <div class="image-container">
@@ -107,6 +111,8 @@ Instead of files living on one server in one massive data center:
 - no single entity controls access to IPFS.
 
 This makes our archive highly resistant to deletion or takedown, and ensures files remain accessible even if a node in the network goes down. That also means if this website were to shutdown, the archive would still be accessible!
+
+---
 
 ## 3. The Cloud – We run our own digital space
 
@@ -151,8 +157,9 @@ As a Black queer digital community archive, we push against the notion that tech
 For archivists and memory workers (or otherwise) looking for advice on how to "deGoogle" their collections, please reach out!
 
 {% include feature/button.html text="Contact Us" link="/contact/" color="success" %}
-
 <br>
+
+---
 # Archival Metadata (check out our [Copyright & Terms](/copyright/) before you download!)
 The table below provides sorting and basic search of the archive's contents. 
 Use the "CSV" button below to download the filtered metadata you see on the page. 
