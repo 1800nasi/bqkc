@@ -45,7 +45,7 @@
                 <img class="figure-img img-fluid rounded lazyload w-100" alt="{{ image_alt | default: image_caption | escape }}"  title="click to see item" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3C/svg%3E" data-src="{{ image_src }}" >
             </a>
             {% unless include.caption == false %}
-<figcaption class="figure-caption text-center text-muted" style="font-size: 0.85rem;">
+<figcaption class="figure-caption text-center text-muted" style="font-size: 0.85rem; width: 100%; margin-top: 0.5rem;">
 
   <a href="{{ image_link }}"><strong>{{ figure.objectid }}</strong></a>
   | {{ figure.description }}

@@ -43,7 +43,7 @@ Ease of use has translated into intense consolidation of the internet. Just a fe
 - what content is promoted or hidden,
 - and whether entire archives can disappear overnight.
 
-Billionaire Elon Musk, for example, infamously purchased Twitter in October 2022 for $44 billion, and became its CEO. With nothing standing in his way besides capital, Musk was able to completely reivent, albeit extremely controversially, one of the web's most used applications–all the while aligning himself with political leaders in the process.
+Billionaire Elon Musk, for example, infamously purchased Twitter in October 2022 for $44 billion, and became its CEO. With nothing standing in his way besides capital, Musk was able to completely reinvent, albeit extremely controversially, one of the web's most used applications–all the while aligning himself with political leaders in the process.
 
 However, there is a growing movement to "decentralize the web" by divorcing from these corporations and using technology to put power into the hands of the people.
 
@@ -56,9 +56,9 @@ In a centralized system, a company, like Google, for example, owns massive data 
 In 2022, Alphabet (Google’s parent company) made [$224 billion](https://proton.me/blog/google-privacy-washing)–nearly 80% of its total revenue–from advertising: which includes Google Search, Google networks, and YouTube ads. Our personal data directly fuels this advertising revenue.
 
 
-<div style="text-align: center;">
-<img src="/assets/img/Centralized-Vs-Decentralized-Vs-Distributed-systems.png" alt="a blue diagram with three different topologies illustrating the differences between centralized, decentralized and distributed networks." style="max-width: 80%; height: auto;">
-<figcaption class="figure-caption text-center text-muted" style="font-size: 0.85rem;" margin-top="0.5rem">
+<div class="image-container">
+<img src="/assets/img/Centralized-Vs-Decentralized-Vs-Distributed-systems.png" alt="a blue diagram with three different topologies illustrating the differences between centralized, decentralized and distributed networks." class="img-fluid">
+<figcaption class="figure-caption text-center text-muted">
     An overview of centralized, decentralized, and distributed networks, illustrating the key differences in their structures and control mechanisms. In a centralized network, all nodes are connected under a single, central authority In a decentralized network, no single authority server controls the nodes; they operate with individual entity, typically with multiple hubs. (Truong, Nguyen & Jayasinghe, Upul & Um, Tai-Won & Lee, Gyu Myoung. (2016). A Survey on Trust Computation in the Internet of Things)
 </figcaption>
 </div>
@@ -73,12 +73,13 @@ This archive might look like a regular-degular website, but under the hood, it's
 
 ## 1. The Website – Built with CollectionBuilder (Lib-Static methodology)
 
-<div style="text-align: center;">
-<img src="/assets/img/lib-static-values.png" alt="a table explaining the Lib-Static Methodology, broken into four keypoints." style="max-width: 80%; height: auto;">
-<figcaption class="figure-caption text-center text-muted" style="font-size: 0.85rem;" margin-top="0.5rem">
-    Collection-Builder is a project meant to follow the Lib-Static approach. The Lib-Static approach, created in 2018 by Evan Williamson, Devin Becker and Olivia Wikle, "focuses on practical, sustainable workflows using data-driven static web templates hosted on simplified infrastructure while leveraging (and building) the in-house specialized skills of librarians in metadata, data, and organization. This provides librarians unique agency and ownership over their systems, as well as meaningful opportunities for professional development leading to fundamental digital skills." (Lib-Static)
-</figcaption>
+<div class="image-container">
+    <img src="/assets/img/lib-static-values.png" alt="a table explaining the Lib-Static Methodology, broken into four keypoints." class="img-fluid">
+    <figcaption class="figure-caption text-center text-muted">
+        Collection-Builder is a project meant to follow the Lib-Static approach. The Lib-Static approach, created in 2018 by Evan Williamson, Devin Becker and Olivia Wikle, "focuses on practical, sustainable workflows using data-driven static web templates hosted on simplified infrastructure while leveraging (and building) the in-house specialized skills of librarians in metadata, data, and organization. This provides librarians unique agency and ownership over their systems, as well as meaningful opportunities for professional development leading to fundamental digital skills." (Lib-Static)
+    </figcaption>
 </div>
+
 
 <br>
 To start, this website is built using an open source tool called [CollectionBuilder](https://collectionbuilder.github.io/). Created by librarians at the University of Idaho, CollectionBuilder is a set of flexible, static web templates that are populated purely from our archive's metadata.
@@ -90,9 +91,9 @@ This means:
 
 ## 2. The Archive – Files being served via IPFS (InterPlanetary File System)
 
-<div style="text-align: center;">
-<img src="/assets/img/Centralized-data-storage-system-vs-IPFS-interplanetary-file-system-1-1024x576.webp" alt="" style="max-width: 80%; height: auto;">
-<figcaption class="figure-caption text-center text-muted" style="font-size: 0.85rem;" margin-top="0.5rem">
+<div class="image-container">
+<img src="/assets/img/Centralized-data-storage-system-vs-IPFS-interplanetary-file-system-1-1024x576.webp" alt="" class="img-fluid">
+<figcaption class="figure-caption text-center text-muted">
     A graphic illustrating the fundamental differences between a traditional centralized client-server system and the decentralized architecture of the InterPlanetary File System (IPFS). (Extrimian, "IPFS (InterPlanetary File System) Wiki," 2024)
 </figcaption>
 </div>
@@ -109,9 +110,9 @@ This makes our archive highly resistant to deletion or takedown, and ensures fil
 
 ## 3. The Cloud – We run our own digital space
 
-<div style="text-align: center;">
-<img src="/assets/img/internet_topologies_with_ynh-0393b688fbcafc252b94fa13ef9635c6.png" alt="" style="max-width: 80%; height: auto;">
-<figcaption class="figure-caption text-center text-muted" style="font-size: 0.85rem;" margin-top="0.5rem">
+<div class="image-container">
+<img src="/assets/img/internet_topologies_with_ynh-0393b688fbcafc252b94fa13ef9635c6.png" alt="" class="img-fluid">
+<figcaption class="figure-caption text-center text-muted">
     A graphic from YunoHost illustrating the concept of "self-hosting": meaning, in this case, owning and administrating your own server, typically at home, to host your personal data and services yourself instead of relying exclusively on third parties. (YunoHost Docs, "About self-hosting")
 </figcaption>
 </div>

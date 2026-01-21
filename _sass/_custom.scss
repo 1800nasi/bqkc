@@ -35,6 +35,10 @@ input, textarea {
   color: #ffffff !important;
 }
 
+.dropdown-item:hover {
+  text-decoration: underline;
+}
+
 .text-muted {
   color: rgba(255, 255, 255, 0.65) !important;
 }
@@ -840,6 +844,23 @@ blockquote {
 /* Remove Spotlight auto-fit button */
 .spl-autofit {
     display: none !important;
+}
+.image-container {
+    text-align: center;
+    max-width: 80%;  /* Set max-width for the image and caption container */
+    margin: 0 auto;  /* Center the container horizontally */
+}
+
+.image-container img {
+    width: 100%;  /* Image will take up 100% of the container width */
+    height: auto;  /* Maintain aspect ratio */
+}
+
+.image-container figcaption {
+    font-size: 0.85rem;
+    width: 100%;  /* Caption takes up 100% width of the container */
+    margin-top: 0.5rem;  /* Space between the image and caption */
+    text-align: center;
 }
 
 

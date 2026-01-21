@@ -102,7 +102,7 @@ $1,000 <br>
 
 
 ## Organizations looking to sponsor or donate
-Any organizations looking to support this work should contact us directly. Please us the button below to email us.
+Any organizations looking to support this work should contact us directly. Please use the button below to email us.
 <div style="text-align: center; margin: 2rem 0;">
   {% include feature/button.html 
      text="Inquire about sponsorship/group donation" 
