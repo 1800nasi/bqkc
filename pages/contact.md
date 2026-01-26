@@ -20,14 +20,14 @@ padding: 6em
 
 # Have questions? Wanna drop a comment? Feedback? A loving note? Recognize someone?
 
-Send any and all inquiries to 1800nasi at tutamail dot com.
+Send any and all inquiries to **1800nasi at tutamail dot com**.
 
 Folks local to Kansas City, Missouri can schedule an in-person studio visit with Founder Nasir Anthony Montalvo <a href="mailto:1800nasi@tutamail.com?subject=Studio Visit, [INSERT NAME]&amp;body=Please include a selection of dates, times and your interest when reaching out for a visit. See you soon! &lt;3" target="_blank">by email appointment.</a>
 
 ---
 
 ## Subscribe to our newsletter!
-<iframe src="https://1800nasi.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://1800nasi.substack.com/embed" width="400" height="240" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
 
 <br>
 ---

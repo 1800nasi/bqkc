@@ -29,8 +29,12 @@ The options below are through {B/qKC}'s fiscal sponsor, The Field. Your donation
 
 *Please contact us for more donation options.*
 
-<script src="https://app.thefield.org/home/donation/general/650187/0"></script>
-<iframe src="https://app.thefield.org/home/donation/general/650187/0" width="500" height="600"></iframe>
+<div style="text-align: center; margin: 2rem 0;">
+  {% include feature/button.html 
+     text="Donate to us" 
+     link="https://app.thefield.org/home/donation/general/650187/0"
+     color="success" %}
+</div>
 
 ---
 ## Our donors

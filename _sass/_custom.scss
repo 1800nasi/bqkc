@@ -497,6 +497,10 @@ main #title p {
   color: #000000 !important;       
 }
 
+.modal-header .small.text-muted {
+  color: #555555 !important;       
+}
+
 .modal-content .card.mb-4.text-center .btn-group .btn-outline-primary {
   background-color: transparent !important;
   color: #000000 !important;    
@@ -507,6 +511,41 @@ main #title p {
 
 .modal-content .card.mb-4.text-center .btn-group .btn-outline-primary:hover,
 .modal-content .card.mb-4.text-center .btn-group .btn-outline-primary:focus {
+  background-color: #000000 !important;
+  color: #ffffff !important;       
+}
+
+.modal-body .btn.btn-outline-secondary.btn-sm {
+  background-color: transparent !important;
+  color: #000000 !important;    
+  border: 1px solid #000000 !important;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.modal-body .btn.btn-outline-secondary.btn-sm:hover,
+.modal-body .btn.btn-outline-secondary.btn-sm:focus {
+  background-color: #000000 !important;
+  color: #ffffff !important;   
+}
+
+.modal-footer .btn.btn-secondary,
+.modal-footer .btn.btn-primary {
+  background-color: transparent !important;
+  color: #000000 !important;    
+  border: 1px solid #000000 !important;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.modal-footer .btn.btn-secondary:hover,
+.modal-footer .btn.btn-secondary:focus {
+  background-color: #000000 !important;
+  color: #ffffff !important;       
+}
+
+.modal-footer .btn.btn-primary:hover,
+.modal-footer .btn.btn-primary:focus {
   background-color: #000000 !important;
   color: #ffffff !important;       
 }
@@ -862,6 +901,26 @@ blockquote {
     margin-top: 0.5rem;  /* Space between the image and caption */
     text-align: center;
 }
+.suggestions-container {
+    position: absolute;
+    width: 100%;
+    max-height: 200px;
+    overflow-y: auto;
+    background-color: white;
+    border: 1px solid #ccc;
+    z-index: 100;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.suggestion-item {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.suggestion-item:hover {
+    background-color: #f0f0f0;
+}
+
 
 
 
