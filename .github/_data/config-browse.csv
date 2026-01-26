@@ -1,0 +1,7 @@
+field,display_name,btn,hidden,sort_name,facet_name
+date_created,Date,,,Date Created
+description,,,true,
+subject,,true
+location,,true,,,Location
+objectid,Object ID #,,,ID #
+collection, Collection,true,,,,

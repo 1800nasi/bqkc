@@ -1,0 +1,47 @@
+{% comment %}
+
+    Adds a basic citation box for child item with reference link to the child modal.
+
+{%- endcomment -%}
+<div class="card">
+    <div class="card-header">Attribution</div>
+    <div class="card-body">
+        <dl>
+            <dt>Citation:</dt>
+            <dd id="citation-text">
+                {% if page.collection %}
+                    "{{ page.title }}," *{{ page.collection }}*, 
+                {% else %}
+                    "{{ page.title }}," 
+                {% endif %}
+                {% if page.date_created %}
+                    {{ page.date_created }}. 
+                {% endif %}
+                <a href="{{ page.url | absolute_url }}">{{ page.url | absolute_url }}</a>
+            </dd>
+        </dl>
+        <button id="copy-button" class="btn btn-primary">Copy Citation</button>
+    </div>
+</div>
+
+<script>
+    // Get the citation text and the button
+    const citationText = document.getElementById("citation-text").innerText;
+    const copyButton = document.getElementById("copy-button");
+
+    // When the button is clicked, copy the citation to the clipboard
+    copyButton.addEventListener("click", function () {
+        const textArea = document.createElement("textarea");
+        textArea.value = citationText;
+        document.body.appendChild(textArea);
+        textArea.select();
+        document.execCommand("copy");
+        document.body.removeChild(textArea);
+        
+        // Optionally, provide feedback to the user
+        copyButton.innerText = "Copied!";
+        setTimeout(() => {
+            copyButton.innerText = "Copy Citation";
+        }, 2000);
+    });
+</script>

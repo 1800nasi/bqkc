@@ -1,0 +1,47 @@
+<div class="row border-bottom border-white pb-4 mb-2 footer-top">
+
+    <!-- LEFT: Title / description / nav -->
+    <div class="col-md-7 px-4 mt-3 footer-text">
+        <h2 class="h4">
+            <a href="{{ '/' | relative_url }}" class="text-white">{{ site.title }}</a>
+        </h2>
+
+        <p class="text-white">
+            <small>{{ site.description }}</small>
+        </p>
+
+        <nav>
+            <ul id="footer-nav" class="nav nav-pills">
+                {%- assign navItems = site.data.config-nav | where_exp: 'item', 'item.dropdown_parent == nil' -%}
+                {% for nav in navItems %}
+                <li class="nav-item">
+                {% if nav.stub %}
+                    <a class="nav-link text-light{% if page.url == nav.stub %} active{% endif %}"
+                       href="{{ nav.stub | relative_url }}">{{ nav.display_name }}</a>
+                {%- else -%}
+                {% assign childStub = site.data.config-nav | where_exp: 'item', 'item.dropdown_parent == nav.display_name and item.stub' | first %}
+                    <a class="nav-link text-light{% if page.url == childStub.stub %} active{% endif %}"
+                       href="{{ childStub.stub | relative_url }}">{{ nav.display_name }}</a>
+                {% endif %}
+                </li>
+                {% endfor %}
+            </ul>
+        </nav>
+    </div>
+
+    <!-- RIGHT: Spinning logo -->
+    <div class="col-md-5 mt-3 d-flex justify-content-center justify-content-md-end align-items-center">
+        <div class="footer-logo-spinner">
+            <video autoplay loop muted playsinline>
+                <source src="{{ '/assets/video/bqkc-logo.mp4' | relative_url }}" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+</div>
+
+    <div class="col-md-12 text-center pt-3 pb-1">
+        <p class="text-white">Last updated {{ site.time | date: "%Y-%m-%d" }} | Built with <a href="/data/">CollectionBuilder</a></p>
+    </div>
+
+</footer>
