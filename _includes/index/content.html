@@ -40,7 +40,7 @@
         {{ others }} OTHER {% include helpers/get-icon-svg.html type="hidden" %}<br>{% endif %}{% endif %}
         {% if include.total == true %}
         {{ templates | size }} TOTAL ITEMS<br>{% endif %}
-        <a class="btn btn-sm btn-{{ include.btn-color | default: 'outline-secondary' }} mt-2" href="{{ '/data/' | relative_url }}">View table</a>
+        <a class="btn btn-sm btn-{{ include.btn-color | default: 'outline-secondary' }} mt-2" href="{{ '/browse/' | relative_url }}">View archive</a>
         </p>
     </div>
 </div>

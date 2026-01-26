@@ -17,6 +17,7 @@ padding: 6em
 # Edit the markdown on in this file to describe your collection
 # Look in _includes/feature for options to easily add features to the page
 ---
+---
 
 # **{B/qKC}** is a *decentralized* archival project challenging out-dated institutional practices within the frame and study of Black queer history.
 

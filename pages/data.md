@@ -13,6 +13,7 @@ heading: "Our Data"
 sub-heading: a deep dive into {B/qKC}'s decentralized, digital archival methods
 padding: 6em
 ---
+---
 
 # Charting a new path forward for digital community archives!
 In accordance with our [mission](/about/), {B/qKC} aims to be the *true* steward of our archive, and make this database openly accessible for years to come. 
