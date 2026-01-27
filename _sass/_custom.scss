@@ -886,7 +886,7 @@ blockquote {
 }
 .image-container {
     text-align: center;
-    max-width: 80%;  /* Set max-width for the image and caption container */
+    max-width: 100%;  /* Set max-width for the image and caption container */
     margin: 0 auto;  /* Center the container horizontally */
 }
 
@@ -901,25 +901,57 @@ blockquote {
     margin-top: 0.5rem;  /* Space between the image and caption */
     text-align: center;
 }
-.suggestions-container {
-    position: absolute;
-    width: 100%;
-    max-height: 200px;
-    overflow-y: auto;
-    background-color: white;
-    border: 1px solid #ccc;
-    z-index: 100;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.footnotes {
+  overflow-x: hidden;
+  max-width: 100%;
 }
 
-.suggestion-item {
-    padding: 8px;
-    cursor: pointer;
+.footnotes p {
+  word-wrap: break-word;
+  word-break: break-all;
 }
 
-.suggestion-item:hover {
-    background-color: #f0f0f0;
+.footnotes a {
+  display: inline-block;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  max-width: 100%;
+  text-overflow: ellipsis;
 }
+
+@media (max-width: 768px) {
+  .footnotes p {
+    font-size: 14px;
+  }
+
+  .footnotes a {
+    font-size: 12px;
+  }
+}
+/* Make sure the images are responsive within the modal */
+.modal-body img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Optional: To make captions look more attractive within the modal */
+.modal-body p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: black;
+}
+#image-lightbox .modal-body #lightbox-caption {
+    color: black !important;
+}
+
+
+
+
+
+
+
+
+
 
 
 

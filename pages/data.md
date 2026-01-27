@@ -62,12 +62,13 @@ In a centralized system, a company, like Google, for example, owns massive data 
 
 In 2022, Alphabet (Google’s parent company) made [$224 billion](https://proton.me/blog/google-privacy-washing)–nearly 80% of its total revenue–from advertising: which includes Google Search, Google networks, and YouTube ads. Our personal data directly fuels this advertising revenue.
 
-
 <div class="image-container">
-<img src="/assets/img/Centralized-Vs-Decentralized-Vs-Distributed-systems.png" alt="a blue diagram with three different topologies illustrating the differences between centralized, decentralized and distributed networks." class="img-fluid">
-<figcaption class="figure-caption text-center text-muted">
-    An overview of centralized, decentralized, and distributed networks, illustrating the key differences in their structures and control mechanisms. In a centralized network, all nodes are connected under a single, central authority In a decentralized network, no single authority server controls the nodes; they operate with individual entity, typically with multiple hubs. (Truong, Nguyen & Jayasinghe, Upul & Um, Tai-Won & Lee, Gyu Myoung. (2016). A Survey on Trust Computation in the Internet of Things)
-</figcaption>
+    <a href="/assets/img/Centralized-Vs-Decentralized-Vs-Distributed-systems.png" data-bs-toggle="lightbox" data-caption=" An overview of centralized, decentralized, and distributed networks, illustrating the key differences in their structures and control mechanisms. In a centralized network, all nodes are connected under a single, central authority In a decentralized network, no single authority server controls the nodes; they operate with individual entity, typically with multiple hubs. (Truong, Nguyen & Jayasinghe, Upul & Um, Tai-Won & Lee, Gyu Myoung. (2016). A Survey on Trust Computation in the Internet of Things)">
+        <img src="/assets/img/Centralized-Vs-Decentralized-Vs-Distributed-systems.png" alt="a diagram with three different topologies illustrating the differences between centralized, decentralized and distributed networks." class="img-fluid">
+    </a>
+    <figcaption class="figure-caption text-center text-muted">
+         An overview of centralized, decentralized, and distributed networks. ("A Survey on Trust Computation in the Internet of Things," 2016)
+    </figcaption>
 </div>
 
 <br>
@@ -81,9 +82,11 @@ This archive might look like a regular-degular website, but under the hood, it's
 ## 1. The Website – Built with CollectionBuilder (Lib-Static methodology)
 
 <div class="image-container">
-    <img src="/assets/img/lib-static-values.png" alt="a table explaining the Lib-Static Methodology, broken into four keypoints." class="img-fluid">
+    <a href="/assets/img/lib-static-values.png" data-bs-toggle="lightbox" data-caption="Collection-Builder is a project meant to follow the Lib-Static approach. The Lib-Static approach, created in 2018 by Evan Williamson, Devin Becker and Olivia Wikle, 'focuses on practical, sustainable workflows using data-driven static web templates hosted on simplified infrastructure while leveraging (and building) the in-house specialized skills of librarians in metadata, data, and organization. This provides librarians unique agency and ownership over their systems, as well as meaningful opportunities for professional development leading to fundamental digital skills.' (Lib-Static)">
+        <img src="/assets/img/lib-static-values.png" alt="a table explaining the Lib-Static Methodology, broken into four keypoints." class="img-fluid">
+    </a>
     <figcaption class="figure-caption text-center text-muted">
-        Collection-Builder is a project meant to follow the Lib-Static approach. The Lib-Static approach, created in 2018 by Evan Williamson, Devin Becker and Olivia Wikle, "focuses on practical, sustainable workflows using data-driven static web templates hosted on simplified infrastructure while leveraging (and building) the in-house specialized skills of librarians in metadata, data, and organization. This provides librarians unique agency and ownership over their systems, as well as meaningful opportunities for professional development leading to fundamental digital skills." (Lib-Static)
+        Collection-Builder is a project meant to follow the Lib-Static approach. (Evan Williamson, Devin Becker and Olivia Wikle, Lib-Static (2018))
     </figcaption>
 </div>
 
@@ -101,10 +104,12 @@ This means:
 ## 2. The Archive – Files being served via IPFS (InterPlanetary File System)
 
 <div class="image-container">
-<img src="/assets/img/Centralized-data-storage-system-vs-IPFS-interplanetary-file-system-1-1024x576.webp" alt="" class="img-fluid">
-<figcaption class="figure-caption text-center text-muted">
-    A graphic illustrating the fundamental differences between a traditional centralized client-server system and the decentralized architecture of the InterPlanetary File System (IPFS). (Extrimian, "IPFS (InterPlanetary File System) Wiki," 2024)
-</figcaption>
+    <a href="/assets/img/Centralized-data-storage-system-vs-IPFS-interplanetary-file-system-1-1024x576.webp" data-bs-toggle="lightbox" data-caption="A graphic illustrating the fundamental differences between a traditional centralized client-server system and the decentralized architecture of the InterPlanetary File System (IPFS). (Extrimian, 'IPFS (InterPlanetary File System) Wiki,' 2024)">
+        <img src="/assets/img/Centralized-data-storage-system-vs-IPFS-interplanetary-file-system-1-1024x576.webp" alt="" class="img-fluid">
+    </a>
+    <figcaption class="figure-caption text-center text-muted">
+        Centralized system (e.g Google Drive) versus the IPFS system. (Extrimian, "IPFS (InterPlanetary File System) Wiki," 2024)
+    </figcaption>
 </div>
 
 <br>
@@ -122,10 +127,12 @@ This makes our archive highly resistant to deletion or takedown, and ensures fil
 ## 3. The Cloud – We run our own digital space
 
 <div class="image-container">
-<img src="/assets/img/internet_topologies_with_ynh-0393b688fbcafc252b94fa13ef9635c6.png" alt="" class="img-fluid">
-<figcaption class="figure-caption text-center text-muted">
-    A graphic from YunoHost illustrating the concept of "self-hosting": meaning, in this case, owning and administrating your own server, typically at home, to host your personal data and services yourself instead of relying exclusively on third parties. (YunoHost Docs, "About self-hosting")
-</figcaption>
+    <a href="/assets/img/internet_topologies_with_ynh-0393b688fbcafc252b94fa13ef9635c6.png" data-bs-toggle="lightbox" data-caption="A graphic from YunoHost illustrating the concept of 'self-hosting': meaning, in this case, owning and administrating your own server, typically at home, to host your personal data and services yourself instead of relying exclusively on third parties. (YunoHost Docs, 'About self-hosting')">
+        <img src="/assets/img/internet_topologies_with_ynh-0393b688fbcafc252b94fa13ef9635c6.png" alt="" class="img-fluid">
+    </a>
+    <figcaption class="figure-caption text-center text-muted">
+       YunoHost's self-hosting. (YunoHost Docs, 'About self-hosting')
+    </figcaption>
 </div>
 
 <br>

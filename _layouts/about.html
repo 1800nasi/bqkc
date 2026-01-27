@@ -80,6 +80,45 @@ layout: default
     </div>
 
 </div>
+
+<!-- Lightbox Modal (This is globally accessible across pages) -->
+<div class="modal fade" id="image-lightbox" tabindex="-1" aria-labelledby="image-lightboxLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img id="lightbox-img" src="" alt="Image" class="img-fluid">
+                <p id="lightbox-caption" class="mt-3 text-muted"></p>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        // Handle lightbox image click and caption display
+        const imageLinks = document.querySelectorAll('a[data-bs-toggle="lightbox"]');
+        
+        imageLinks.forEach(link => {
+            link.addEventListener('click', function (e) {
+                e.preventDefault();  // Prevent default action (no page refresh)
+                
+                // Get the image and caption
+                const imgSrc = this.getAttribute('href');
+                const caption = this.getAttribute('data-caption');
+                
+                // Set the lightbox image source and caption
+                document.getElementById('lightbox-img').src = imgSrc;
+                document.getElementById('lightbox-caption').textContent = caption;
+
+                // Show the modal
+                const myModal = new bootstrap.Modal(document.getElementById('image-lightbox'));
+                myModal.show();
+            });
+        });
+    });
+</script>
 <script>
 document.addEventListener("DOMContentLoaded", function () {
   const tocLinks = document.querySelectorAll("#about-toc-list a");

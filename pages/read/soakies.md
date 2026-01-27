@@ -107,7 +107,7 @@ According to a 2019 study by Greggor Mattson[^1], a professor of Sociology at Ob
 In short, we are losing our safe spaces.
 
 <figure style="display: inline-block; max-width: 75%;">
-  <img src="/assets/img/10.1177_2378023119894832-fig1.jpg" 
+  <img src="/assets/img/10.1177_2378023119894832-fig1.jpg"
        alt="Gay bar listings in Damron guides at five-year intervals, 1977–2017 and 2019" 
        style="max-width: 100%; height: auto;">
   <figcaption class="figure-caption text-center text-muted" style="font-size: 0.85rem;" margin-top="0.5rem">
@@ -452,7 +452,7 @@ Carrington-Balenciaga, Gee Gee (videographer), in private interview on Soakie’
 
 Colston, Jerry and Robinson, Eric (founders of Soakie’s as a Black gay bar), in private interview on Soakie’s, Kansas City, MO, 2023.
 
-DeAngelo, Dory. MAIN STREET. 1999. Missouri Valley Special Collections, Kansas City Public Library, Kansas City, MO. https://kchistory.org/image/main-street-7?solr_nav%5Bid%5D=4124fac5de772c67db87&amp;solr_nav%5Bpage%5D=0&amp;solr_nav%5Boffset%5D=0. 
+DeAngelo, Dory. MAIN STREET. 1999. Missouri Valley Special Collections, Kansas City Public Library, Kansas City, MO. https://kchistory.org/image/main-street-7. 
 
 Jackson, David W. “Kansas City’s LGBTQIA Bar Census.” Gay and Lesbian Archive of Mid-America, LaBudde Special Collections, University of Missouri-Kansas City, 2016. https://libweb.umkc.edu/content/images/glama/timeline/jackson-book-bar-list.pdf. 
 
@@ -464,7 +464,7 @@ Martinez, Prince. “Who Are the Top Event/Party Promoters around the Country fo
 
 Mattson, Greggor. “Are Gay Bars Closing? Using Business Listings to Infer Rates of Gay Bar Closure in the United States, 1977–2019.” Socius: Sociological Research for a Dynamic World 5 (December 2019): 237802311989483. https://doi.org/10.1177/2378023119894832. 
 
-millerswiller. “Yup. Do you remember this nearby bar/’restaurant.’ Reddit. August, 10, 2016. https://www.reddit.com/r/kansascity/comments/4x0ze1/comment/d6byps2/?utm_source=share&utm_medium=web2x&context=3
+millerswiller. “Yup. Do you remember this nearby bar/’restaurant.’ Reddit. August, 10, 2016. https://www.reddit.com/r/kansascity/comments/4x0ze1/comment/d6byps2/
 
 Montalvo, Nasir. “Men of All Colors Together: Fighting Racism amidst Gay Men in the 80’s.” Kansas City Defender, July 28, 2023. https://kansascitydefender.com/lgbtqia2/men-of-all-colors-together/. 
 
@@ -482,6 +482,7 @@ Thompson, Amy. “GENTRIFICATION THROUGH THE EYES (AND LENSES) OF KANSAS CITY RE
 https://mospace.umsystem.edu/xmlui/bitstream/handle/10355/14577/research.pdf?sequence=2&amp;isAllowed=y.
 
 ### Footnotes
+
 [^1]: Greggor Mattson. “Are Gay Bars Closing? Using Business Listings to Infer Rates of Gay Bar Closure in the United States, 1977–2019.” Socius: Sociological Research for a Dynamic World 5 (December 2019): 237802311989483. https://doi.org/10.1177/2378023119894832. 
 [^2]: millerswiller. “Yup. Do you remember this nearby bar/’restaurant.’ Reddit. August, 10, 2016. https://www.reddit.com/r/kansascity/comments/4x0ze1/comment/d6byps2/?utm_source=share&utm_medium=web2x&context=3 
 [^3]: Dory DeAngelo. MAIN STREET. 1999. Missouri Valley Special Collections, Kansas City Public Library, Kansas City, MO. https://kchistory.org/image/main-street-7?solr_nav%5Bid%5D=4124fac5de772c67db87&amp;solr_nav%5Bpage%5D=0&amp;solr_nav%5Boffset%5D=0. 
