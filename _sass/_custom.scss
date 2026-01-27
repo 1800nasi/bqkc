@@ -880,25 +880,25 @@ blockquote {
   margin-top: 0.5rem;
   border-top: 1px solid rgba(0,0,0,0.1);
 }
-/* Remove Spotlight auto-fit button */
+
 .spl-autofit {
     display: none !important;
 }
 .image-container {
     text-align: center;
-    max-width: 100%;  /* Set max-width for the image and caption container */
-    margin: 0 auto;  /* Center the container horizontally */
+    max-width: 100%;  
+    margin: 0 auto; 
 }
 
 .image-container img {
-    width: 100%;  /* Image will take up 100% of the container width */
-    height: auto;  /* Maintain aspect ratio */
+    width: 100%;  
+    height: auto;  
 }
 
 .image-container figcaption {
     font-size: 0.85rem;
-    width: 100%;  /* Caption takes up 100% width of the container */
-    margin-top: 0.5rem;  /* Space between the image and caption */
+    width: 100%;  
+    margin-top: 0.5rem;  
     text-align: center;
 }
 .footnotes {
@@ -928,13 +928,12 @@ blockquote {
     font-size: 12px;
   }
 }
-/* Make sure the images are responsive within the modal */
+
 .modal-body img {
     max-width: 100%;
     height: auto;
 }
 
-/* Optional: To make captions look more attractive within the modal */
 .modal-body p {
     font-size: 1rem;
     line-height: 1.6;
